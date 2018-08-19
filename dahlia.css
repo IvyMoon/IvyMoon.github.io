@@ -1,0 +1,454 @@
+/* Universal */
+
+body {
+  font-family: 'Raleway';
+  color: Ivory;
+  background-color: #385263;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Menu */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*puts nav in the middle*/
+  height: 3em;
+  border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
+  width: 100%;
+  background: url("./Photos/Brown.JPG") no-repeat left top;
+  position: static;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  transition: color 0.35s;
+  text-decoration: none;
+  color: #8DD1FC;
+}
+
+a:hover {
+  color: #EBCEFC;
+}
+
+.smallerMenu { /* ------ samller -------- */
+  display: none;
+}
+
+#hiddenTop {
+  display: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .menu {
+    display: none;
+  }
+  .smallerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*puts nav in the middle*/
+    height: 8.5em;
+    border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
+    width: 100%;
+    background: url("./Photos/Brown.JPG") no-repeat left top;
+    position: static;
+  }
+
+  .smallerMenu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .smallerMenu nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #nightDahliaSym {
+    padding-top: 0.2em;
+  }
+
+  .smallerMenu nav ul a {
+    padding: 0.075em;
+  }
+
+  #topperTop {
+    display: none;
+  }
+
+  #hiddenTop {
+    display: flex;
+  }
+}
+
+/* Quote */
+
+.quote {
+  display: flex;
+  justify-content: center;
+  font-family: 'Handlee';
+}
+
+.quote p {
+  word-spacing: 0.03rem;
+  line-height: 1.22rem;
+  padding: 0 2em;
+  text-align: center;
+}
+
+.symbol, #flippedSymbol {
+  height: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.symbol p, #flippedSymbol p {
+  line-height: 0.72rem;
+}
+
+#psi, #psi2 {
+  padding-left: 0.035rem;
+}
+
+#flippedSymbol p {
+  transform: rotate(180deg);
+}
+
+/* Welcome */
+
+#welcome {
+  height: 85%;
+  width: 85%;
+  border: 3px dotted #DBA869;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 3%;
+}
+
+#welcome img {
+  border: 3px dotted #DBA869;
+  border-top: none;
+  height: 55%;
+  width: 55%;
+  position: relative;
+}
+
+#gnome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gnome p {
+  line-height: 1.22rem;
+  word-spacing: 0.03rem;
+}
+
+/* Stories */
+
+section {
+  width: 100%;
+  border: 3px solid rgba(141,209,252,0.5);
+  border-left: none;
+  border-right: none;
+  margin-top: 3em;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background: url("./Photos/Brown.JPG") no-repeat left bottom;
+}
+
+.scroll {
+  position: relative;
+  top: 1.5em;
+  opacity: 0.7;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3em;
+  width: 100%;
+}
+
+#stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#storiesTitle {
+  font-size: 2.5em;
+  font-family: 'Handlee';
+}
+
+#storiesDesc {
+  font-size: 1em;
+  font-family: 'Handlee';
+}
+
+.story {
+  transition: box-shadow 0.95s;
+  padding-top: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 3px dotted #DBA869;
+  overflow-y: scroll;
+  color: Ivory;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.story a {
+  font-family: 'Handlee';
+}
+
+.story:hover {
+  box-shadow: 0px 30px 100px rgba(219,168,105,.4);
+}
+
+#strangeAttraction {
+  background: url("./Photos/Brown.JPG") no-repeat left center;
+}
+
+#foodFreedom {
+  background-color: #6E4443;
+}
+
+#chimneySweep {
+  background: url("./Photos/blackAndWhiteMoodyTrees.JPG") no-repeat center center;
+  opacity: 0.65;
+}
+
+#marigold {
+  background: url("./Photos/BackyardSunshine.JPG") no-repeat center left;
+}
+
+.smallerLinks {
+  display: none;
+}
+
+.smallerStory {
+  display: none;
+}
+
+/* A better way to do this would be to change the already-existing stuff instead
+  of copying, pasting, and re-organizing the copied stuff, but it doesn't look
+  as good... */
+
+@media only screen and (max-width: 650px) {
+  .links {
+    display: none;
+  }
+
+  .smallerLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .smallerLinks div {
+    display: flex;
+    display: row;
+    align-items: center;
+  }
+
+  .smallerLinks div div {
+    margin-left: 0.275em;
+    margin-right: 0.275em;
+  }
+
+  .smallerStory {
+    transition: box-shadow 0.95s;
+    margin-top: 2.8em;
+    padding-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 3px dotted #DBA869;
+    overflow-y: scroll;
+    color: Ivory;
+    opacity: 0.8;
+    text-align: center;
+  }
+
+  .smallerStory a {
+    font-family: 'Handlee';
+  }
+
+  .smallerStory:hover {
+    box-shadow: 0px 30px 100px rgba(219,168,105,.4);
+  }
+}
+
+/*@media only screen and (max-width: 650px) {
+  .links {
+    flex-wrap: wrap;
+  }
+
+  .story {
+    margin-left: 0.275em;
+    margin-right: 0.275em;
+    margin-bottom: 2.0em;
+  }
+} ********This ^^^^ would work, but looks less good ********* */
+
+/*-------Tidbits of Nonsensical Gibberish--------*/
+
+#pigeon {
+  background-color: #3C3FA1;
+}
+
+#pancake {
+  background-color: #A13C53;
+}
+
+#apple {
+  background: url("./Photos/RussiaTrip.JPG") no-repeat left center;
+  color: black;
+}
+
+#humphrey {
+  background-color: #01162E;
+}
+
+#frog {
+  background-color: #00593C;
+}
+
+#evergreen {
+  background: url("./Photos/Pond.JPG") no-repeat bottom center;
+  color: black;
+}
+
+
+
+/* footer */
+
+footer div {
+  padding-top: 1.6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* ----------- Videos ------------ */
+
+#containerVids {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#allVids {
+  margin-top: 1em;
+  border: 3px dotted #DBA869;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(89,55,54,0.8);
+}
+
+#vidDesc {
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.shorty {
+  margin-top: 0.75em;
+}
+
+/* ----------- About Me ------------ */
+
+#me {
+  margin-top: 1.5em;
+}
+
+.heck {
+  margin: 3.3em 0 1.7em 0;
+}
+
+#possum {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(90deg);
+  width: 300px;
+  height: 250px;
+  border-radius: 100%;
+  border: 2px solid Ivory;
+}
+
+
+/* ----------- Main Stories ----------- */
+
+.containerStory {
+  padding: 0.5em 0 1.2em 0;
+  border: 3px dotted #DBA869;
+  border-top: none;
+  width: 80%;
+  background-color: #00415E;
+}
+
+.mainstory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainstory p {
+  text-align: left;
+}
+
+.mainstoryTitle {
+  padding: 0.3em 0;
+  font-size: 1.9em;
+}
+
+.mainstorySubtitle {
+  padding: 0.2em 0;
+  font-size: 1.259em;
+}
+
+.mainstory div {
+  padding-top: 0.45em;
+}
+
+#FF {
+  background-color: #6E4443;
+}
+
+#TCS {
+  background-color: #3C3F51;
+}
+
+#M {
+  background-color: #946650;
+}
