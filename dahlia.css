@@ -19,7 +19,7 @@ body {
   height: 3em;
   border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
   width: 100%;
-  background: url("./Photos/Brown.JPG") no-repeat left top;
+  background: url("Brown.JPG") no-repeat left top;
   position: static;
 }
 
@@ -57,7 +57,7 @@ a:hover {
     height: 8.5em;
     border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
     width: 100%;
-    background: url("./Photos/Brown.JPG") no-repeat left top;
+    background: url("Brown.JPG") no-repeat left top;
     position: static;
   }
 
@@ -171,7 +171,7 @@ section {
   margin-top: 3em;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background: url("./Photos/Brown.JPG") no-repeat left bottom;
+  background: url("Brown.JPG") no-repeat left bottom;
 }
 
 .scroll {
@@ -227,7 +227,7 @@ section {
 }
 
 #strangeAttraction {
-  background: url("./Photos/Brown.JPG") no-repeat left center;
+  background: url("Brown.JPG") no-repeat left center;
 }
 
 #foodFreedom {
@@ -235,12 +235,12 @@ section {
 }
 
 #chimneySweep {
-  background: url("./Photos/blackAndWhiteMoodyTrees.JPG") no-repeat center center;
+  background: url("blackAndWhiteMoodyTrees.JPG") no-repeat center center;
   opacity: 0.65;
 }
 
 #marigold {
-  background: url("./Photos/BackyardSunshine.JPG") no-repeat center left;
+  background: url("BackyardSunshine.JPG") no-repeat center left;
 }
 
 .smallerLinks {
@@ -326,7 +326,7 @@ section {
 }
 
 #apple {
-  background: url("./Photos/RussiaTrip.JPG") no-repeat left center;
+  background: url("RussiaTrip.JPG") no-repeat left center;
   color: black;
 }
 
@@ -339,7 +339,7 @@ section {
 }
 
 #evergreen {
-  background: url("./Photos/Pond.JPG") no-repeat bottom center;
+  background: url("Pond.JPG") no-repeat bottom center;
   color: black;
 }
 
