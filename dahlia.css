@@ -103,10 +103,6 @@ a:hover {
    ul {
      flex-direction: column;
     }
-    
-   .menu nav ul a span {
-     font-size: 2rem;
-    }
 }
 
 /* ipad mini menu */
@@ -114,9 +110,6 @@ a:hover {
   (min-device-width: 768px) and
   (max-device-width: 1024px) and
   (-webkit-min-device-pixel-ratio: 1) {
-    ul {
-      flex-direction: column;
-    }  
 }
     
 
@@ -228,12 +221,12 @@ a:hover {
       height: 100%;    /*nope*/
     }
     
-    #storiesTitle {.    /*nope*/
+    #storiesTitle {    /*nope*/
       font-size: 4em;
       font-family: 'Handlee';
     }
 
-    #storiesDesc {.    /*nope*/
+    #storiesDesc {    /*nope*/
       font-size: 3em;
       font-family: 'Handlee';
     }
@@ -253,7 +246,7 @@ a:hover {
       border-radius: 0%;    /*RECENT CHANGE*/
     }
     
-    #gnome span p{
+    #gnome span p {
       font-size: 1rem;    /*RECENT CHANGE*/
       line-height: 2.5rem;
     }
