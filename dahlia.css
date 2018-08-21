@@ -121,7 +121,7 @@ a:hover {
       flex-direction: column;   /*CHANGED PrEv from comment */
       /*flex-wrap: wrap;       CHANGED PrEv to comment */
       align-items: space-around;   /*CHANGED PrEv from space-evenly space-around */
-      justify-content: space-evenly;    /*CHANGED PrEv from center to space-evenly */
+      justify-content: center;    /*CHANGED from space-evenly to center */
     }
     
     .smallerMenu nav:nth-child(1) {
