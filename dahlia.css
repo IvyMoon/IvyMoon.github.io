@@ -132,8 +132,12 @@ a:hover {
       display: flex;
       /*flex-direction: column;
       width: 100%;    /*CHANGED PrEv*/
-      align-items: space-around;   /*CHANGED from space-between to space-around */
-      justify-content: space-between;     /*CHANGED from space-around to spaced-between */
+      align-items: space-around;   /*CHANGED PrEv from space-between to space-around */
+      justify-content: space-between;     /*CHANGED PrEv from space-around to spaced-between */
+    }
+    
+    .smallerMenu nav:nth-child(4) {
+      justify-content: space-evenly;    /*CHANGED*/
     }
     
     /*.smallerMenu nav ul a {
