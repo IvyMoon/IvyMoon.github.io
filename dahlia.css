@@ -103,6 +103,9 @@ a:hover {
    ul {
      flex-direction: column;
     }
+    
+   .menu nav ul a span {
+     font-size: 2rem;
 }
 
 /* ipad mini menu */
@@ -114,9 +117,6 @@ a:hover {
       flex-direction: column;
     }
     
-    ul a {
-      font-size: 2rem;
-    }
 }
     
 
