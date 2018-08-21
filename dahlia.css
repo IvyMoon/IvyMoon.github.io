@@ -155,6 +155,7 @@ a:hover {
     #welcome img {
       height: 100%;
       border: green;
+      /* Using this to try to fix the way the picture shows up on Linux thing */
     }
 }
 
@@ -164,9 +165,8 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     #welcome {
-      border: none;
-      width: .35em;
-      height: .35em;
+      width: 100%;
+      height: 100%;
     }
     
     #welcome img {
