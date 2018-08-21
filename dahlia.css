@@ -120,8 +120,8 @@ a:hover {
       display: flex;
       flex-direction: column;   /*CHANGED PrEv from comment */
       /*flex-wrap: wrap;       CHANGED PrEv to comment */
-      align-items: center;   /*CHANGED from space-around to center */
-      justify-content: center;    /*CHANGED from space-evenly to center */
+      align-items: center;   /*CHANGED PrEv from space-around to center */
+      justify-content: space-evenly;    /*CHANGED from center to space-evenly */
     }
     
     .smallerMenu nav:nth-child(1) {
