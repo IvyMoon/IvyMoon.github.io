@@ -153,8 +153,8 @@ a:hover {
 @media screen and (min-device-width: 1800px)
   and (max-device-width: 3200px) {
     #welcome img {
-      width: auto;
-      height: auto;
+      width: 30px;
+      height: 40px;
     }
 }
 
