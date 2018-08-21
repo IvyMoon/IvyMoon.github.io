@@ -164,9 +164,14 @@ a:hover {
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
+    .quote p {
+      font-size: 2.33rem;
+    }
+    
     #welcome {
-      width: 100%;
-      height: 100%;
+      border-radius: 1%;
+      width: 95%;
+      height: 95%;
     }
     
     #welcome img {
