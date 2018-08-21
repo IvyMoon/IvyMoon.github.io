@@ -120,8 +120,8 @@ a:hover {
       display: flex;
       flex-direction: column;   /*CHANGED PrEv from comment */
       /*flex-wrap: wrap;       CHANGED PrEv to comment */
-      align-items: space-around;   /*CHANGED from space-evenly space-around */
-      justify-content: space-evenly;    /*CHANGED from center to space-evenly */
+      align-items: space-around;   /*CHANGED PrEv from space-evenly space-around */
+      justify-content: space-evenly;    /*CHANGED PrEv from center to space-evenly */
     }
     
     .smallerMenu nav:nth-child(1) {
@@ -130,10 +130,16 @@ a:hover {
     
     .smallerMenu nav ul {
       display: flex;
-      /*flex-direction: column;*/
+      flex-direction: column;   /*Changed from uncommented */
       width: 100%;    /*CHANGED*/
       align-items: space-between;   /*CHANGED PrEv from space-evenly to space-between */
-      justify-content: space-between;     /*CHANGED from center to space-between */
+      justify-content: space-between;     /*CHANGED PrEv from center to space-between */
+    }
+    
+    .smallerMenu nav:nth-child(4) {.  /*Changed : Added this whole dang thing */
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
     }
     
     /*.smallerMenu nav ul a {
