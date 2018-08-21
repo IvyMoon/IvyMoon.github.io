@@ -109,7 +109,7 @@ a:hover {
       display: flex;
       flex-direction: column;
       justify-content: center; /*puts nav in the middle*/
-      height: 14em;    /*CHANGED from 12em to 14em */
+      height: 14em;    /*CHANGED PrEv from 12em to 14em */
       border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
       width: 100%;
       background: url("Brown.JPG") no-repeat left top;
@@ -130,10 +130,10 @@ a:hover {
     
     .smallerMenu nav ul {
       display: flex;
-      /*flex-direction: column;   /*Changed from uncomment to comment*/
-      width: 100%;    /*CHANGED*/
-      align-items: space-between;   /*CHANGED PrEv from space-evenly to space-between */
-      justify-content: space-around;     /*CHANGED from space-between to space-around */
+      /*flex-direction: column;
+      width: 100%;    /*CHANGED PrEv*/
+      align-items: space-around;   /*CHANGED from space-between to space-around */
+      justify-content: space-between;     /*CHANGED from space-around to spaced-between */
     }
     
     /*.smallerMenu nav ul a {
