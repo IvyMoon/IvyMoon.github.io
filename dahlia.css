@@ -134,7 +134,7 @@ a:hover {
   width: 85%;
   border: 3px dotted #DBA869;
   display: flex;
-  align-items: center;
+  /*align-items: center;     RECENT CHANGE*/
   justify-content: center;
   border-left: none;
   border-right: none;
@@ -145,7 +145,7 @@ a:hover {
 #welcome img {
   border: 3px dotted #DBA869;
   border-top: none;
-  height: 55%;
+  /*height: 55%;     RECENT CHANGE*/
   width: 55%;
   position: relative;
 }
@@ -169,7 +169,8 @@ a:hover {
     }
     
     .quote p {
-      font-size: 1.75em;
+      font-size: 1.75rem;
+      line-height: 1.56rem;
     }
     
     #welcome {
@@ -180,6 +181,7 @@ a:hover {
     
     #welcome img {
       border: 3px dotted #DBA869;
+      border-top: none;
       width: 100%;
       height: 100%;
     }
