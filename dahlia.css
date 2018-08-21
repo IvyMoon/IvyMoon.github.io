@@ -235,7 +235,7 @@ a:hover {
     }
     
     #howdy {
-      font-size: 6.5rem;    /* RECENT CHANGE */
+      font-size: 3.5rem;    /* RECENT CHANGE from 6.5rem */
       line-height: 2rem;
     }
     
@@ -252,7 +252,7 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 1.5rem;    /* RECENT CHANGE */
+      font-size: 3.5rem;    /* RECENT CHANGE from 2.5rem */
       line-height: 2rem;
     }
     
@@ -284,6 +284,11 @@ a:hover {
     .quote p {
       font-size: 1.5rem;
       line-height: 2.16rem;
+    }
+    
+    #howdy {
+      font-size: 2.5rem;    /* RECENT CHANGE */
+      line-height: 2rem;
     }
     
     #welcome {
