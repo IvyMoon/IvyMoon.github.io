@@ -134,7 +134,7 @@ a:hover {
   width: 85%;
   border: 3px dotted #DBA869;
   display: flex;
-  /*align-items: center;     RECENT CHANGE*/
+  align-items: center;
   justify-content: center;
   border-left: none;
   border-right: none;
@@ -149,28 +149,42 @@ a:hover {
   width: 55%;
   position: relative;
 }
-
+/* Using this to try to fix the way the picture shows up on Linux thing
+   But it's not working because it doesn't recognize the pixels...?*/
 @media screen and (min-device-width: 1800px)
   and (max-device-width: 3200px) {
+    #welcome {
+      height: 85%;
+      width: 85%;
+      border: 3px dotted #DBA869;
+      display: flex;
+      justify-content: center;
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+      border-radius: 3%;
+    }
+    
     #welcome img {
-      height: 100%;
-      border: green;
-      /* Using this to try to fix the way the picture shows up on Linux thing */
+      border: 3px dotted #DBA869;
+      border-top: none;
+      width: 55%;
+      position: relative;
     }
 }
-
+/* iPhone 6, 6S, 7 and 8 in Portrait mode */
 @media only screen and
   (min-device-width: 375px) and
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    .quote {
-      
+    .symbol, #flippedSymbol {
+      height: 4em;
     }
     
     .quote p {
       font-size: 1.75rem;
-      line-height: 1.56rem;
+      line-height: 2.56rem;
     }
     
     #welcome {
@@ -186,6 +200,29 @@ a:hover {
       height: 100%;
     }
 }
+/* iPad 1, 2, Mini and Air in Portrait mode*/
+@media only screen and
+  (min-device-width: 768px) and
+  (max-device-width: 1024px) and
+  (orientation: portrait) and
+  (-webkit-min-device-pixel-ratio: 1) {
+    .symbol, #flippedSymbol {
+      height: 4em;
+    }
+    
+    .quote p {
+      font-size: 1.75rem;
+      line-height: 2.56rem;
+    }
+    
+    #welcome {
+      border-radius: none;
+    }
+}
+    
+    
+    
+    
       
       
 
