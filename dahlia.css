@@ -101,6 +101,10 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     
+    .menu {
+      display: none;
+    }
+    
     .smallerMenu {
       display: flex;
       flex-direction: column;
@@ -112,14 +116,15 @@ a:hover {
       position: static;
     }
     
-    nav {
+    .smallerMenu nav {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
     }
     
-    ul {
+    .smallerMenu nav ul {
+      display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
