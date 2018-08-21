@@ -131,8 +131,7 @@ a:hover {
     }
     
     .smallerMenu nav ul a {
-      font-size: 1rem;    /*RECENT CHANGE*/
-      line-height: 2rem;
+      font-size: 6rem;    /*RECENT CHANGE*/
     }
     
     a[tabindex]:focus {
