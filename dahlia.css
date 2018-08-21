@@ -169,11 +169,10 @@ a:hover {
     }
     
     .quote p {
-      font-size: 5em;
+      font-size: 1.75em;
     }
     
     #welcome {
-      display: none;
       border-radius: 1%;
       width: 95%;
       height: 95%;
