@@ -109,7 +109,7 @@ a:hover {
       display: flex;
       flex-direction: column;
       justify-content: center; /*puts nav in the middle*/
-      height: 8.5em;
+      height: 8.5em;    /*CHANGED from 8.5em to 10em */
       border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
       width: 100%;
       background: url("Brown.JPG") no-repeat left top;
@@ -118,14 +118,14 @@ a:hover {
     
     .smallerMenu nav {
       display: flex;
-      /*flex-direction: column;*/
-      flex-wrap: wrap; /* RECENT CHANGE*/
-      align-items: center;
-      justify-content: space-evenly;
+      flex-direction: column;   /*CHANGED from comment */
+      /*flex-wrap: wrap;       CHANGED to comment */
+      align-items: space-evenly;   /*CHANGED from center to space-evenly */
+      justify-content: center;    /*CHANGED from space-evenly to center */
     }
     
     .smallerMenu nav:nth-child(1) {
-      font-size: 1.75rem;
+      font-size: 2.5rem;   /*CHANGED from 1.75rem to 2.5rem */
     }
     
     .smallerMenu nav ul {
@@ -240,9 +240,9 @@ a:hover {
     }
     
     #howdy {
-      font-size: 2.5rem;    /* RECENT CHANGE from 3.5rem & CHANGED */
+      font-size: 2.5rem;    /* CHANGED from 2.5rem to 3.5rem*/
       line-height: 2rem;
-      margin-bottom: 1.75rem;  /*CHANGED*/
+      margin-bottom: 1.5rem;
     }
     
     #welcome {
@@ -258,8 +258,8 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 2.5rem;    /* RECENT CHANGE from 3.5rem & CHANGED */
-      line-height: 2rem;
+      font-size: 2.5rem;
+      line-height: 2.5rem;  /*CHANGED from 2rem to 2.5rem*/
     }
     
     /*section {
@@ -293,8 +293,9 @@ a:hover {
     }
     
     #howdy {
-      font-size: 2.5rem;    /* RECENT CHANGE */
-      line-height: 2rem;
+      font-size: 2.5rem;
+      line-height: 2rem;    
+      margin-bottom: 1rem;  /* CHANGED */
     }
     
     #welcome {
