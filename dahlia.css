@@ -100,49 +100,22 @@ a:hover {
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-   .menu {
-     display: none;
+   ul {
+     flex-direction: column;
+    }
+}
+
+/* ipad mini menu */
+@media only screen and
+  (min-device-width: 768px) and
+  (max-device-width: 1024px) and
+  (-webkit-min-device-pixel-ratio: 1) {
+    ul {
+      flex-direction: column;
     }
     
-   .smallerMenu {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; /*puts nav in the middle*/
-      height: 8.5em;
-      border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
-      width: 100%;
-      background: url("Brown.JPG") no-repeat left top;
-      position: static;
-     }
-
-    .smallerMenu nav {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-     }
-
-    .smallerMenu nav ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    #nightDahliaSym {
-      padding-top: 0.2em;
-    }
-
-    .smallerMenu nav ul a {
-      padding: 0.075em;
-    }
-
-    #topperTop {
-      display: none;
-    }
-
-    #hiddenTop {
-      display: flex;
+    ul a {
+      font-size: 2rem;
     }
 }
     
