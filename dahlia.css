@@ -221,19 +221,11 @@ a:hover {
       line-height: 2.16rem;   /*RECENT CHANGE*/
     }
     
-    #howdy {
-      height: 3em;
-    
-    #howdy span {
-      width: 100%;
-      height: 100%;         /*RECENT CHANGE*/
-    }
-    
     #welcome {
       border-radius: 0%;    /*RECENT CHANGE*/
     }
     
-    #gnome span p {
+    #gnome span p, #howdy span p {
       font-size: 1rem;    /*RECENT CHANGE*/
       line-height: 2.5rem;
     }
@@ -243,17 +235,16 @@ a:hover {
     
     
     
-    
       
       
 
-#gnome {
+#gnome, #howdy {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#gnome p {
+#gnome p, #howdy p {
   line-height: 1.22rem;
   word-spacing: 0.03rem;
 }
