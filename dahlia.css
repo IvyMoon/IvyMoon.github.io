@@ -101,10 +101,15 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     
+    .menu {
+      height: 12em;
+    }
+    
     ul {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
     }
     
     .menu nav ul:nth-child(1) {
