@@ -156,8 +156,8 @@ a:hover {
    The problem here is simply: height: 55%;
    which needs to go away at this screen size...but how do I do that if 
    this media query doesn't register?*/
-@media screen and (min-device-width: 1800px)
-  and (max-device-width: 3200px) {
+@media screen and (min-width: 1800px)
+  and (max-width: 3200px) {
     #welcome img {
       height: auto;    /*RECENT CHANGE*/
     }
@@ -179,12 +179,13 @@ a:hover {
       line-height: 2.16rem;
     }
     
-    #howdy {
-      height: 3.22rem;   /*RECENT CHANGE*/
+    #howdy span {
+      width: auto;    /*RECENT CHANGE*/
+      height: auto;   /*RECENT CHANGE*/
     }
     
     #welcome {
-      border: none;    /*REECENT CHANGE*/
+      border: none;   /* I'm not sure I like how this looks...it's not terrible, but...*/
       width: 95%;
       height: 95%;
     }
@@ -195,8 +196,26 @@ a:hover {
       height: 100%;
     }
     
-    #gnome {
-      height: 2.44rem;    /*RECENT CHANGE*/
+    #gnome span p {
+      font-size: 2.44rem;    /*RECENT CHANGE*/
+    }
+    
+    section {
+      height: 3em;
+    }
+    
+    #stories {
+      height: 100%;
+    }
+    
+    #storiesTitle {
+      font-size: 5.5em;
+      font-family: 'Handlee';
+    }
+
+    #storiesDesc {
+      font-size: 3em;
+      font-family: 'Handlee';
     }
 }
 /* iPad 1, 2, Mini and Air in Portrait AND Landscape mode*/
@@ -210,16 +229,17 @@ a:hover {
       line-height: 2.16rem;   /*RECENT CHANGE*/
     }
     
-    #howdy {
-      height: 3.22rem;   /*RECENT CHANGE*/
+    #howdy span {
+      width: auto;
+      height: auto;         /*RECENT CHANGE*/
     }
     
     #welcome {
       border-radius: 0%;    /*RECENT CHANGE*/
     }
     
-    #gnome {
-      height: 2.44rem;    /*RECENT CHANGE*/
+    #gnome span p {
+      font-size: 2.44rem;    /*RECENT CHANGE*/
     }
 }
 /* iPad 1, 2, Mini and Air in Landscape mode*/
