@@ -158,7 +158,7 @@ a:hover {
    this media query doesn't register?*/
 @media screen and (min-width: 1800px), (max-width: 3200px) {
     #welcome img {
-      height: auto;    /*RECENT CHANGE*/
+      height: auto;    /*I think this works!!!!!!!!!*/
     }
 }
 /* iPhone 6, 6S, 7 and 8 in Portrait mode */
@@ -178,9 +178,9 @@ a:hover {
       line-height: 2.16rem;
     }
     
-    #howdy span {
-      width: 100%;    /*RECENT CHANGE*/
-      height: 100%;   /*RECENT CHANGE*/
+    #howdy span {        /*nope*/
+      width: 100%;    
+      height: 3em;   
     }
     
     #welcome {
@@ -197,23 +197,24 @@ a:hover {
     
     #gnome span p {
       font-size: 2rem;    /*RECENT CHANGE*/
+      line-height: 2rem;  /*RECENT CHANGE*/
     }
     
     section {
       height: 100%;
-      width: 100%;        /*Doesn't work...*/
+      width: 100%;        /*nope*/
     }
     
     #stories {
-      height: 100%;
+      height: 100%;    /*nope*/
     }
     
-    #storiesTitle {
+    #storiesTitle {.    /*nope*/
       font-size: 4em;
       font-family: 'Handlee';
     }
 
-    #storiesDesc {
+    #storiesDesc {.    /*nope*/
       font-size: 3em;
       font-family: 'Handlee';
     }
@@ -239,7 +240,8 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 2.44rem;    /*RECENT CHANGE*/
+      font-size: 2rem;    /*RECENT CHANGE*/
+      line-height: 2rem;
     }
 }
 /* iPad 1, 2, Mini and Air in Landscape mode*/
