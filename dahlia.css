@@ -107,6 +107,8 @@ a:hover {
   text-align: center;
 }
 
+/* FIX SYMBOLS!!!!!*/
+
 .symbol, #flippedSymbol {
   height: 3em;
   display: flex;
@@ -156,11 +158,14 @@ a:hover {
    this media query doesn't register?*/
 @media screen and (min-device-width: 1800px)
   and (max-device-width: 3200px) {
-    #welcome {
-      height: auto;
+    #welcome img {
+      height: auto;    /*RECENT CHANGE*/
     }
 }
 /* iPhone 6, 6S, 7 and 8 in Portrait mode */
+/* Although it'll work, it's not good because you'd have to scroll the picture
+   just to see the below content... 
+   Might be better to scroll content over picture??? Change later to see */
 @media only screen and
   (min-device-width: 375px) and
   (max-device-width: 667px) and
@@ -174,33 +179,30 @@ a:hover {
       line-height: 2.16rem;
     }
     
-    #howdy span {
-      line-height: 1.22rem;   /*RECENT CHANGE*/
+    #howdy {
+      height: 3.22rem;   /*RECENT CHANGE*/
     }
     
     #welcome {
-      /* border-radius: none;     RECENT CHANGE*/
+      border: none;    /*REECENT CHANGE*/
       width: 95%;
       height: 95%;
     }
     
     #welcome img {
       border: 3px dotted #DBA869;
-      border-top: none;
       width: 100%;
       height: 100%;
     }
     
-    #gnome p {
-      line-height: 2.44rem;
-      word-spacing: 0.06rem;
+    #gnome {
+      height: 2.44rem;    /*RECENT CHANGE*/
     }
 }
-/* iPad 1, 2, Mini and Air in Portrait mode*/
+/* iPad 1, 2, Mini and Air in Portrait AND Landscape mode*/
 @media only screen and
   (min-device-width: 768px) and
   (max-device-width: 1024px) and
-  (orientation: portrait) and
   (-webkit-min-device-pixel-ratio: 1) {
     
     .quote p {
@@ -208,14 +210,20 @@ a:hover {
       line-height: 2.16rem;   /*RECENT CHANGE*/
     }
     
-    #howdy span {
-      line-height: 1.22rem;   /*RECENT CHANGE*/
+    #howdy {
+      height: 3.22rem;   /*RECENT CHANGE*/
     }
     
     #welcome {
       border-radius: 0%;    /*RECENT CHANGE*/
     }
+    
+    #gnome {
+      height: 2.44rem;    /*RECENT CHANGE*/
+    }
 }
+/* iPad 1, 2, Mini and Air in Landscape mode*/
+/* When you zoom in on picture, the border starts to appear...*/
     
     
     
