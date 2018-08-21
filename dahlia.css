@@ -136,12 +136,6 @@ a:hover {
       justify-content: space-between;     /*CHANGED PrEv from center to space-between */
     }
     
-    .smallerMenu nav:nth-child(4) {.  /*Changed : Added this whole dang thing */
-      display: flex;
-      width: 100%;
-      justify-content: space-evenly;
-    }
-    
     /*.smallerMenu nav ul a {
       font-size: 1.5rem;    /*RECENT CHANGE --
     } 
