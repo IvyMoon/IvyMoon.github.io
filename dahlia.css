@@ -130,7 +130,7 @@ a:hover {
     
     .smallerMenu nav ul {
       display: flex;
-      flex-direction: column;   /*Changed from uncommented */
+      /*flex-direction: column;   /*Changed from uncomment to comment*/
       width: 100%;    /*CHANGED*/
       align-items: space-between;   /*CHANGED PrEv from space-evenly to space-between */
       justify-content: space-between;     /*CHANGED PrEv from center to space-between */
