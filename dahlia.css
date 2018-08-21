@@ -109,7 +109,7 @@ a:hover {
       display: flex;
       flex-direction: column;
       justify-content: center; /*puts nav in the middle*/
-      height: 12em;    /*CHANGED from 10em to 12em */
+      height: 14em;    /*CHANGED from 12em to 14em */
       border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
       width: 100%;
       background: url("Brown.JPG") no-repeat left top;
@@ -131,7 +131,8 @@ a:hover {
     .smallerMenu nav ul {
       display: flex;
       /*flex-direction: column;*/
-      align-items: space-evenly;   /*CHANGED PrEv from center to space-evenly */
+      width: 100%;    /*CHANGED*/
+      align-items: space-between;   /*CHANGED from space-evenly to space-between */
       justify-content: center;
     }
     
