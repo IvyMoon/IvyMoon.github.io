@@ -120,7 +120,7 @@ a:hover {
       display: flex;
       flex-direction: column;   /*CHANGED PrEv from comment */
       /*flex-wrap: wrap;       CHANGED PrEv to comment */
-      align-items: space-around;   /*CHANGED PrEv from space-evenly space-around */
+      align-items: center;   /*CHANGED from space-around to center */
       justify-content: center;    /*CHANGED from space-evenly to center */
     }
     
@@ -132,7 +132,7 @@ a:hover {
       display: flex;
       flex-direction: column;     /* CHANGED*/
       width: 100%;    /*CHANGED PrEv*/
-      align-items: space-around;   /*CHANGED PrEv from space-between to space-around */
+      align-items: space-evenly;   /*CHANGED from space-around to space-evenly */
       justify-content: center;     /*CHANGED PrEv from space-around to spaced-between */
     }
     
