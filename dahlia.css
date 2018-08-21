@@ -130,11 +130,11 @@ a:hover {
     
     .smallerMenu nav ul {
       display: flex;
-      flex-direction: column;     /* CHANGED*/
-      /*width: 100%;    /*CHANGED*/
-      align-items: center;   /*CHANGED from space-evenly to center */
+      /*flex-direction: column;     /* CHANGED
+      /*width: 100%;    /*CHANGED
+      align-items: center;   /*CHANGED from space-evenly to center 
       justify-content: center;     /*CHANGED PrEv from space-around to spaced-between */
-    }
+    } 
     
     /*.smallerMenu nav ul a {
       font-size: 1.5rem;    /*RECENT CHANGE --
