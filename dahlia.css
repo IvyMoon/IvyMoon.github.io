@@ -130,6 +130,11 @@ a:hover {
       justify-content: center;
     }
     
+    .smallerMenu nav ul a {
+      font-size: 1rem;    /*RECENT CHANGE*/
+      line-height: 2rem;
+    }
+    
     a[tabindex]:focus {
       color: #8DD1FC;
     }
@@ -208,7 +213,7 @@ a:hover {
 /* Using this to try to fix the way the picture shows up on Linux*/
 @media screen and (min-width: 1800px), (max-width: 3200px) {
     #welcome img {
-      height: auto;    /*I think this works!!!!!!!!!*/
+      height: auto;
     }
 }
 /* iPhone 6, 6S, 7 and 8 in Portrait mode */
