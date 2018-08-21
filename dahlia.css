@@ -133,11 +133,7 @@ a:hover {
       /*flex-direction: column;
       width: 100%;    /*CHANGED PrEv*/
       align-items: space-around;   /*CHANGED PrEv from space-between to space-around */
-      justify-content: space-between;     /*CHANGED PrEv from space-around to spaced-between */
-    }
-    
-    .smallerMenu nav ul:nth-child(4) {
-      justify-content: space-evenly;    /*CHANGED*/
+      justify-content: center;     /*CHANGED PrEv from space-around to spaced-between */
     }
     
     /*.smallerMenu nav ul a {
