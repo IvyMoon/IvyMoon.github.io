@@ -220,9 +220,7 @@ a:hover {
     }
 }
 /* iPhone 6, 6S, 7 and 8 in Portrait mode */
-/* Although it'll work, it's not good because you'd have to scroll the picture
-   just to see the below content... 
-   Might be better to scroll content over picture??? Change later to see */
+/* Might be better to scroll content over picture??? Change later to see */
 @media only screen and
   (min-device-width: 375px) and
   (max-device-width: 667px) and
@@ -237,7 +235,7 @@ a:hover {
     }
     
     #welcome {
-      border: none;   /* I'm not sure I like how this looks...it's not terrible, but...*/
+      border: none;   /* yellow line ... change? */
       width: 95%;
       height: 95%;
     }
@@ -249,8 +247,8 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 1rem;    /*RECENT CHANGE*/
-      line-height: 2.5rem;  /*RECENT CHANGE*/
+      font-size: 1.5rem;    /* RECENT CHANGE */
+      line-height: 2rem;
     }
     
     section {
@@ -288,12 +286,10 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 1.5rem;    /*RECENT CHANGE*/
-      line-height: 2rem;    /*RECENT CHANGE*/
+      font-size: 1.5rem;    /* leave this be */
+      line-height: 2rem;
     }
 }
-/* iPad 1, 2, Mini and Air in Landscape mode*/
-/* When you zoom in on picture, the border starts to appear...*/
     
     
     
