@@ -130,9 +130,9 @@ a:hover {
       justify-content: center;
     }
     
-    .smallerMenu nav ul a {
-      font-size: 1.5rem;    /*RECENT CHANGE*/
-    }
+    /*.smallerMenu nav ul a {
+      font-size: 1.5rem;    /*RECENT CHANGE --
+    } */
     
     a[tabindex]:focus {
       color: #8DD1FC;
@@ -149,7 +149,7 @@ a:hover {
     }
     
     .Menu nav ul a {
-      font-size: 1.5rem;
+      font-size: 3rem;   /*RECENT CHANGE */
 }
     
 
