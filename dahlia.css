@@ -150,13 +150,31 @@ a:hover {
   position: relative;
 }
 
-@media only screen and (min-width: 1800px)
+@media screen and (min-width: 1800px)
   and (max-width: 3200px) {
     #welcome img {
       width: 30px;
       height: 40px;
     }
 }
+
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    #welcome {
+      display: none;
+    }
+    
+    #welcome img {
+      border: 3px dotted #DBA869;
+      width: auto;
+      height: auto;
+    }
+}
+      
+      
 
 #gnome {
   display: flex;
