@@ -148,9 +148,9 @@ a:hover {
       color: #8DD1FC;
     }
     
-    .Menu nav ul a {
-      font-size: 3rem;   /*RECENT CHANGE */
-}
+    /*.Menu nav ul a {
+      font-size: 3rem;   /*RECENT CHANGE --
+} */
     
 
 /* Quote */
@@ -279,16 +279,16 @@ a:hover {
     
     .quote p {
       font-size: 1.5rem;
-      line-height: 2.16rem;   /*RECENT CHANGE*/
+      line-height: 2.16rem;
     }
     
     #welcome {
-      border-radius: 0%;    /*RECENT CHANGE*/
+      border-radius: 0%;    
     }
     
     #gnome span p {
-      font-size: 1rem;    /*RECENT CHANGE*/
-      line-height: 2.5rem;
+      font-size: 1.5rem;    /*RECENT CHANGE*/
+      line-height: 2rem;    /*RECENT CHANGE*/
     }
 }
 /* iPad 1, 2, Mini and Air in Landscape mode*/
