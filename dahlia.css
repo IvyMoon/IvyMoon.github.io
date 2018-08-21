@@ -136,7 +136,7 @@ a:hover {
       justify-content: space-between;     /*CHANGED PrEv from space-around to spaced-between */
     }
     
-    .smallerMenu nav:nth-child(4) {
+    .smallerMenu nav ul:nth-child(4) {
       justify-content: space-evenly;    /*CHANGED*/
     }
     
