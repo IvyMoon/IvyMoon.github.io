@@ -156,8 +156,7 @@ a:hover {
    The problem here is simply: height: 55%;
    which needs to go away at this screen size...but how do I do that if 
    this media query doesn't register?*/
-@media screen and (min-width: 1800px)
-  and (max-width: 3200px) {
+@media screen and (min-width: 1800px), (max-width: 3200px) {
     #welcome img {
       height: auto;    /*RECENT CHANGE*/
     }
@@ -180,8 +179,8 @@ a:hover {
     }
     
     #howdy span {
-      width: auto;    /*RECENT CHANGE*/
-      height: auto;   /*RECENT CHANGE*/
+      width: 100%;    /*RECENT CHANGE*/
+      height: 100%;   /*RECENT CHANGE*/
     }
     
     #welcome {
@@ -197,11 +196,12 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 2.44rem;    /*RECENT CHANGE*/
+      font-size: 2rem;    /*RECENT CHANGE*/
     }
     
     section {
-      height: 3em;
+      height: 100%;
+      width: 100%;        /*Doesn't work...*/
     }
     
     #stories {
@@ -209,7 +209,7 @@ a:hover {
     }
     
     #storiesTitle {
-      font-size: 5.5em;
+      font-size: 4em;
       font-family: 'Handlee';
     }
 
