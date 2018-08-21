@@ -145,7 +145,7 @@ a:hover {
 #welcome img {
   border: 3px dotted #DBA869;
   border-top: none;
-  /*height: 55%;     RECENT CHANGE*/
+  height: 55%;
   width: 55%;
   position: relative;
 }
@@ -156,7 +156,8 @@ a:hover {
     #welcome {
       height: 85%;
       width: 85%;
-      border: 3px dotted #DBA869;
+      /*border: 3px dotted #DBA869;*/
+      border: 3px dotted red;
       display: flex;
       justify-content: center;
       border-left: none;
@@ -178,13 +179,14 @@ a:hover {
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    .symbol, #flippedSymbol {
-      height: 4em;
-    }
     
     .quote p {
       font-size: 1.75rem;
-      line-height: 2.56rem;
+      line-height: 2.16rem;
+    }
+    
+    #howdy span {
+      line-heigh: 1.22rem;
     }
     
     #welcome {
@@ -199,6 +201,11 @@ a:hover {
       width: 100%;
       height: 100%;
     }
+    
+    #gnome p {
+      line-height: 2.44rem;
+      word-spacing: 0.06rem;
+    }
 }
 /* iPad 1, 2, Mini and Air in Portrait mode*/
 @media only screen and
@@ -206,9 +213,6 @@ a:hover {
   (max-device-width: 1024px) and
   (orientation: portrait) and
   (-webkit-min-device-pixel-ratio: 1) {
-    .symbol, #flippedSymbol {
-      height: 4em;
-    }
     
     .quote p {
       font-size: 1.75rem;
