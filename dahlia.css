@@ -131,7 +131,7 @@ a:hover {
     }
     
     .smallerMenu nav ul a {
-      font-size: 6rem;    /*RECENT CHANGE*/
+      font-size: 1.5rem;    /*RECENT CHANGE*/
     }
     
     a[tabindex]:focus {
@@ -147,6 +147,9 @@ a:hover {
     a[tabindex]:focus {
       color: #8DD1FC;
     }
+    
+    .Menu nav ul a {
+      font-size: 1.5rem;
 }
     
 
@@ -275,7 +278,7 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 1) {
     
     .quote p {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
       line-height: 2.16rem;   /*RECENT CHANGE*/
     }
     
