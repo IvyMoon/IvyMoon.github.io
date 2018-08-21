@@ -130,7 +130,7 @@ a:hover {
     
     .smallerMenu nav ul {
       display: flex;
-      /*flex-direction: column;
+      flex-direction: column;     /* CHANGED*/
       width: 100%;    /*CHANGED PrEv*/
       align-items: space-around;   /*CHANGED PrEv from space-between to space-around */
       justify-content: center;     /*CHANGED PrEv from space-around to spaced-between */
