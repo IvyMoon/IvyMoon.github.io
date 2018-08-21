@@ -178,9 +178,12 @@ a:hover {
       line-height: 2.16rem;
     }
     
+    #howdy {
+      height: 3em;
+    
     #howdy span {        /*nope*/
       width: 100%;    
-      height: 3em;   
+      height: 100%;   
     }
     
     #welcome {
@@ -196,8 +199,8 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 2rem;    /*RECENT CHANGE*/
-      line-height: 2rem;  /*RECENT CHANGE*/
+      font-size: 1rem;    /*RECENT CHANGE*/
+      line-height: 2.5rem;  /*RECENT CHANGE*/
     }
     
     section {
@@ -230,9 +233,12 @@ a:hover {
       line-height: 2.16rem;   /*RECENT CHANGE*/
     }
     
+    #howdy {
+      height: 3em;
+    
     #howdy span {
-      width: auto;
-      height: auto;         /*RECENT CHANGE*/
+      width: 100%;
+      height: 100%;         /*RECENT CHANGE*/
     }
     
     #welcome {
@@ -240,8 +246,8 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 2rem;    /*RECENT CHANGE*/
-      line-height: 2rem;
+      font-size: 1rem;    /*RECENT CHANGE*/
+      line-height: 2.5rem;
     }
 }
 /* iPad 1, 2, Mini and Air in Landscape mode*/
