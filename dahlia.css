@@ -150,11 +150,10 @@ a:hover {
   position: relative;
 }
 
-@media screen and (min-width: 1800px)
-  and (max-width: 3200px) {
+@media screen and (min-device-width: 1800px)
+  and (max-device-width: 3200px) {
     #welcome img {
-      width: 30px;
-      height: 40px;
+      height: 100%;
     }
 }
 
@@ -164,7 +163,9 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     #welcome {
-      display: none;
+      border: none;
+      width: 3.5em;
+      height: 3.5em;
     }
     
     #welcome img {
