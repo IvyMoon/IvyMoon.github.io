@@ -101,15 +101,21 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     
-    .menu {
-      display: none;
+    ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     
-    .smallerMenu {
+    .menu nav ul:nth-child(1) {
+      font-size: 3rem;
+    }
+    
+    /*.smallerMenu {
       display: flex;
       flex-direction: column;
-      justify-content: center; /*puts nav in the middle*/
-      height: 14em;    /*CHANGED PrEv from 12em to 14em */
+      justify-content: center; /*puts nav in the middle
+      height: 14em;    /*CHANGED PrEv from 12em to 14em 
       border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
       width: 100%;
       background: url("Brown.JPG") no-repeat left top;
@@ -118,14 +124,14 @@ a:hover {
     
     .smallerMenu nav {
       display: flex;
-      flex-direction: column;   /*CHANGED PrEv from comment */
-      /*flex-wrap: wrap;       CHANGED PrEv to comment */
-      align-items: center;   /*CHANGED PrEv from space-around to center */
-      justify-content: center;    /*CHANGED from space-evenly to center */
+      flex-direction: column;   /*CHANGED PrEv from comment 
+      /*flex-wrap: wrap;       CHANGED PrEv to comment 
+      align-items: center;   /*CHANGED PrEv from space-around to center 
+      justify-content: center;    /*CHANGED from space-evenly to center 
     }
     
     .smallerMenu nav:nth-child(1) {
-      font-size: 3rem;   /*CHANGED PrEv from 2.5rem to 3rem */
+      font-size: 3rem;   /*CHANGED PrEv from 2.5rem to 3rem 
     }
     
     .smallerMenu nav ul {
@@ -134,7 +140,7 @@ a:hover {
       /*flex-direction: column;     /* CHANGED
       /*width: 100%;    /*CHANGED
       align-items: center;   /*CHANGED from space-evenly to center 
-      justify-content: center;     /*CHANGED PrEv from space-around to spaced-between */
+      justify-content: center;     /*CHANGED PrEv from space-around to spaced-between 
     } 
     
     /*.smallerMenu nav ul a {
