@@ -95,7 +95,7 @@ a:hover {
 }
 
 /* Mobile Menu */
-/*@media only screen and
+@media only screen and
   (min-device-width: 375px) and
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
@@ -108,7 +108,7 @@ a:hover {
     .smallerMenu {
       display: flex;
       flex-direction: column;
-      justify-content: center; /*puts nav in the middle
+      justify-content: center; /*puts nav in the middle*/
       height: 8.5em;
       border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
       width: 100%;
@@ -118,14 +118,19 @@ a:hover {
     
     .smallerMenu nav {
       display: flex;
-      flex-direction: column;
+      /*flex-direction: column;*/
+      flex-wrap: wrap; /* RECENT CHANGE*/
       align-items: center;
       justify-content: space-evenly;
     }
     
+    .smallerMenu nav:nth-child(1) {
+      font-size: 1.75rem;
+    }
+    
     .smallerMenu nav ul {
       display: flex;
-      flex-direction: column;
+      /*flex-direction: column;*/
       align-items: center;
       justify-content: center;
     }
@@ -136,8 +141,8 @@ a:hover {
     
     a[tabindex]:focus {
       color: #8DD1FC;
-    }
-} */
+    } */
+}
 
 /* ipad mini menu */
 @media only screen and
@@ -235,12 +240,13 @@ a:hover {
     }
     
     #howdy {
-      font-size: 3.5rem;    /* RECENT CHANGE from 6.5rem */
+      font-size: 2.5rem;    /* RECENT CHANGE from 3.5rem & CHANGED */
       line-height: 2rem;
+      margin-bottom: 1.75rem;  /*CHANGED*/
     }
     
     #welcome {
-      border: none;   /* yellow line ... change? */
+      border: none;
       width: 95%;
       height: 95%;
     }
@@ -252,28 +258,28 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 3.5rem;    /* RECENT CHANGE from 2.5rem */
+      font-size: 2.5rem;    /* RECENT CHANGE from 3.5rem & CHANGED */
       line-height: 2rem;
     }
     
-    section {
+    /*section {
       height: 100%;
-      width: 100%;        /*nope*/
+      width: 100%;        /*nope
     }
     
     #stories {
-      height: 100%;    /*nope*/
+      height: 100%;    /*nope
     }
     
-    #storiesTitle {    /*nope*/
+    #storiesTitle {    /*nope
       font-size: 4em;
       font-family: 'Handlee';
     }
 
-    #storiesDesc {    /*nope*/
+    #storiesDesc {    /*nope
       font-size: 3em;
       font-family: 'Handlee';
-    }
+    } */
 }
 /* iPad 1, 2, Mini and Air in Portrait AND Landscape mode*/
 @media only screen and
