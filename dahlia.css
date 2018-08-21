@@ -151,11 +151,7 @@ a:hover {
   width: 55%;
   position: relative;
 }
-/* Using this to try to fix the way the picture shows up on Linux thing
-   But it's not working because it doesn't recognize the pixels...?
-   The problem here is simply: height: 55%;
-   which needs to go away at this screen size...but how do I do that if 
-   this media query doesn't register?*/
+/* Using this to try to fix the way the picture shows up on Linux*/
 @media screen and (min-width: 1800px), (max-width: 3200px) {
     #welcome img {
       height: auto;    /*I think this works!!!!!!!!!*/
@@ -178,14 +174,6 @@ a:hover {
       line-height: 2.16rem;
     }
     
-    #howdy {
-      height: 3em;
-    
-    #howdy span {        /*nope*/
-      width: 100%;    
-      height: 100%;   
-    }
-    
     #welcome {
       border: none;   /* I'm not sure I like how this looks...it's not terrible, but...*/
       width: 95%;
@@ -198,7 +186,7 @@ a:hover {
       height: 100%;
     }
     
-    #gnome span p {
+    #gnome span p, #howdy span p {
       font-size: 1rem;    /*RECENT CHANGE*/
       line-height: 2.5rem;  /*RECENT CHANGE*/
     }
