@@ -154,6 +154,7 @@ a:hover {
   and (max-device-width: 3200px) {
     #welcome img {
       height: 100%;
+      border: green;
     }
 }
 
@@ -164,14 +165,14 @@ a:hover {
   (orientation: portrait) {
     #welcome {
       border: none;
-      width: 1.5em;
-      height: 1.5em;
+      width: .35em;
+      height: .35em;
     }
     
     #welcome img {
       border: 3px dotted #DBA869;
-      width: auto;
-      height: auto;
+      width: 100%;
+      height: 100%;
     }
 }
       
