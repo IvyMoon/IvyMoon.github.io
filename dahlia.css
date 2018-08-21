@@ -106,6 +106,7 @@ a:hover {
     
    .menu nav ul a span {
      font-size: 2rem;
+    }
 }
 
 /* ipad mini menu */
@@ -115,8 +116,7 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 1) {
     ul {
       flex-direction: column;
-    }
-    
+    }  
 }
     
 
@@ -521,6 +521,17 @@ footer div {
   border-radius: 100%;
   border: 2px solid Ivory;
 }
+
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    #possum {
+      transform: rotate(-90deg);
+    }
+}
+ 
 
 
 /* ----------- Main Stories ----------- */
