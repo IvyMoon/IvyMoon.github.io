@@ -150,27 +150,14 @@ a:hover {
   position: relative;
 }
 /* Using this to try to fix the way the picture shows up on Linux thing
-   But it's not working because it doesn't recognize the pixels...?*/
+   But it's not working because it doesn't recognize the pixels...?
+   The problem here is simply: height: 55%;
+   which needs to go away at this screen size...but how do I do that if 
+   this media query doesn't register?*/
 @media screen and (min-device-width: 1800px)
   and (max-device-width: 3200px) {
     #welcome {
-      height: 85%;
-      width: 85%;
-      /*border: 3px dotted #DBA869;*/
-      border: 3px dotted red;
-      display: flex;
-      justify-content: center;
-      border-left: none;
-      border-right: none;
-      border-bottom: none;
-      border-radius: 3%;
-    }
-    
-    #welcome img {
-      border: 3px dotted #DBA869;
-      border-top: none;
-      width: 55%;
-      position: relative;
+      height: auto;
     }
 }
 /* iPhone 6, 6S, 7 and 8 in Portrait mode */
@@ -180,17 +167,19 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     
+    /* Make symbols bigger here*/
+    
     .quote p {
       font-size: 1.75rem;
       line-height: 2.16rem;
     }
     
     #howdy span {
-      line-heigh: 1.22rem;
+      line-height: 1.22rem;   /*RECENT CHANGE*/
     }
     
     #welcome {
-      border-radius: 1%;
+      /* border-radius: none;     RECENT CHANGE*/
       width: 95%;
       height: 95%;
     }
@@ -216,11 +205,15 @@ a:hover {
     
     .quote p {
       font-size: 1.75rem;
-      line-height: 2.56rem;
+      line-height: 2.16rem;   /*RECENT CHANGE*/
+    }
+    
+    #howdy span {
+      line-height: 1.22rem;   /*RECENT CHANGE*/
     }
     
     #welcome {
-      border-radius: none;
+      border-radius: 0%;    /*RECENT CHANGE*/
     }
 }
     
