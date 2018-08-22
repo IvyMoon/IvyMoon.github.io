@@ -210,34 +210,29 @@ a:hover {
   (orientation: portrait) {
     
     .symbol, #flippedSymbol {
-      height: 4em;   /* CHANGED PrEv from 6em to 4em */
-      margin-top: 2em;   /* CHANGED PrEv to have padding */
+      height: 4em;
+      margin-top: 2em;
     }
     
     #flippedSymbol {
-      margin-bottom: 2em;   /*ditto*/
+      margin-bottom: 2em;
     }
       
     .symbol p, #flippedSymbol p {
-      font-size: 3.25rem;       /*CHANGED PrEv from 4rem to 3.25rem*/
-      line-height: 2.3rem;   /*CHANGED PrEv from 0.72rem; */
+      font-size: 3.25rem;
+      line-height: 2.3rem;
     }
     
-    /*span #psi, span #psi2 {
-      padding-right: 1rem;
-      margin-right: 1rem;   /*CHANGED from padding-right 3rem to padding-right 1rem 
-    } */
-    
     .quote p {
-      font-size: 1.75rem;   /*CHANGED this to 1.75rem */
+      font-size: 1.75rem;
       line-height: 2.16rem;
-      margin-top: 1.5em;    /*CHANGED this from 1.75em to 1.5em*/
+      margin-top: 1.5em;
     }
     
     #howdy {
-      font-size: 3.5rem;    /* CHANGED PrEv from 2.5rem to 3.5rem*/
+      font-size: 3.5rem;
       line-height: 2rem;
-      margin-bottom: 1.5rem; /*CHANGED PrEv from 1.5rem to 2.5rem */
+      margin-bottom: 1.5rem;
     }
     
     #welcome {
@@ -260,21 +255,19 @@ a:hover {
     /*section {
       height: 100%;
       width: 100%;        /*nope
-    }
+    } */
     
     #stories {
-      height: 100%;    /*nope
+      height: 4em;
     }
     
-    #storiesTitle {    /*nope
-      font-size: 4em;
-      font-family: 'Handlee';
+    #storiesTitle {
+      font-size: 2.75em;
     }
 
-    #storiesDesc {    /*nope
-      font-size: 3em;
-      font-family: 'Handlee';
-    } */
+    #storiesDesc {
+      font-size: 1.75em;
+    }
 }
 /* iPad 1, 2, Mini and Air in Portrait AND Landscape mode*/
 @media only screen and
