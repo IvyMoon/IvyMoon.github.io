@@ -103,6 +103,7 @@ a:hover {
     
     .menu {
       height: 24em;
+      position: fixed;
     }
     
     ul {
@@ -233,14 +234,12 @@ a:hover {
       font-size: 3.5rem;
       line-height: 2rem;
       margin-bottom: 1.5rem;
-      position: fixed;
     }
     
     #welcome {
       border: none;
       width: 95%;
       height: 95%;
-      position: fixed;
     }
     
     #welcome img {
@@ -252,7 +251,6 @@ a:hover {
     #gnome span p {
       font-size: 2.5rem;
       line-height: 2.5rem;
-      position: fixed;
     }
     
     section {
