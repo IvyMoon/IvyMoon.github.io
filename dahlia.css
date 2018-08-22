@@ -308,6 +308,20 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: landscape) {
     
+    .symbol, #flippedSymbol {
+      height: 4em;
+      margin-top: 2em;
+    }
+    
+    #flippedSymbol {
+      margin-bottom: 2em;
+    }
+      
+    .symbol p, #flippedSymbol p {
+      font-size: 3.25rem;
+      line-height: 2.3rem;
+    }     /* added up from here */
+    
     #welcome {
       border-radius: 0%;
     }
@@ -715,15 +729,15 @@ footer div {
     }
 }
 
-@media only screen and              /* added this */
+@media only screen and              /* changed this */
   (min-device-width: 375px) and
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and 
   (orientation: landscape) {
     #possum {
       transform: rotate(360deg);
-      width: 450px;
-      height: 500px;
+      width: 250px;
+      height: 300px;
     }
 }
  
