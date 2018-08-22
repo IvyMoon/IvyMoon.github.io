@@ -666,6 +666,7 @@ footer div {
     }
     
     #allVids {
+      justify-content: center;
       align-items: space-evenly;
     }
     
