@@ -211,7 +211,7 @@ a:hover {
     
     .symbol, #flippedSymbol {
       height: 4em;   /* CHANGED PrEv from 6em to 4em */
-      margin-top: 2em;   /* CHANGED to have padding top & bottom */
+      margin-top: 2em;   /* CHANGED PrEv to have padding */
     }
     
     #flippedSymbol {
@@ -219,7 +219,7 @@ a:hover {
     }
       
     .symbol p, #flippedSymbol p {
-      font-size: 4rem;       /*CHANGED from 4.75*/
+      font-size: 4rem;       /*CHANGED PrEv from 4.75*/
       line-height: 3rem;   /*CHANGED PrEv from 0.72rem; */
     }
     
@@ -230,6 +230,7 @@ a:hover {
     .quote p {
       font-size: 1.75rem;
       line-height: 2.16rem;
+      margin-top: 2em;    /*CHANGED this*/
     }
     
     #howdy {
