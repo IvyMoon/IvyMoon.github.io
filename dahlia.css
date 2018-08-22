@@ -535,7 +535,7 @@ section {
     }
     
     .smallerStory p {
-      font-size: 2em;
+      font-size: 2.2em;   /*changed from 2em to 2.2em */
       text-align: center;
     }
 
