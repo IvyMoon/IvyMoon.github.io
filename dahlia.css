@@ -764,24 +764,10 @@ footer div {
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    .menu {
-      position: static;
-      z-index: 5;
-    }
-    
-    .downWithRalph {
-      z-index: 4;
-      position: fixed;
-    }
-    
-    .gummyBear {
-      position: relative;
-      z-index: 3;
-    }
     
     .tea {
     }
     
-    footer {
+    .babyTea {
     }
 }
