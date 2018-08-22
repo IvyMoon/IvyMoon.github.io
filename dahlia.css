@@ -596,9 +596,9 @@ footer div {
       line-height: 2.5rem;
     }
     
-    footer div a {
-      height: 100px;
-      width: 100px;
+    footer div a img {
+      height: 200px;
+      width: 200px;
     }
 }
       
