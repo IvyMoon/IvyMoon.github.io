@@ -658,15 +658,15 @@ footer div {
   (orientation: portrait) {
     #vidDesc {
       font-size: 3em;
+      margin-bottom: 3em;  /*added this... */
     }
     
     #allVids {
-      margin-top: 3em;    /*changed to 1em to 3em*/
-      width: 100%;
+      margin-top: 3em;    /*changed to 1em to 3em ; this ain't not never doing nothing.*/
     }
     
     .shorty {
-      width: 20em;
+      height: 10em;
     }
 }
 
