@@ -765,9 +765,7 @@ footer div {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     
-    .tea {
-    }
-    
-    .babyTea {
+    .quacker {
+      position: sticky;
     }
 }
