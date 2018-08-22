@@ -102,7 +102,7 @@ a:hover {
   (orientation: portrait) {
     
     .menu {
-      height: 48em;
+      height: 40em;   /* CHANGED from 48em */
     }
     
     ul {
@@ -115,42 +115,6 @@ a:hover {
     .menu nav ul:nth-child(1) {
       font-size: 3rem;
     }
-    
-    /*.smallerMenu {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; /*puts nav in the middle
-      height: 14em;    /*CHANGED PrEv from 12em to 14em 
-      border-bottom: 3px dotted rgba(98, 146, 175, 0.3);
-      width: 100%;
-      background: url("Brown.JPG") no-repeat left top;
-      position: static;
-    }
-    
-    .smallerMenu nav {
-      display: flex;
-      flex-direction: column;   /*CHANGED PrEv from comment 
-      /*flex-wrap: wrap;       CHANGED PrEv to comment 
-      align-items: center;   /*CHANGED PrEv from space-around to center 
-      justify-content: center;    /*CHANGED from space-evenly to center 
-    }
-    
-    .smallerMenu nav:nth-child(1) {
-      font-size: 3rem;   /*CHANGED PrEv from 2.5rem to 3rem 
-    }
-    
-    .smallerMenu nav ul {
-      display: flex;
-      flex-direction: column;   /* ADDED ******* */
-      /*flex-direction: column;     /* CHANGED
-      /*width: 100%;    /*CHANGED
-      align-items: center;   /*CHANGED from space-evenly to center 
-      justify-content: center;     /*CHANGED PrEv from space-around to spaced-between 
-    } 
-    
-    /*.smallerMenu nav ul a {
-      font-size: 1.5rem;    /*RECENT CHANGE --
-    } 
     
     a[tabindex]:focus {
       color: #8DD1FC;
@@ -245,7 +209,17 @@ a:hover {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     
-    /* Make symbols bigger here*/
+    .symbol, #flippedSymbol {
+      height: 6em;
+    }
+      
+    .symbol p, #flippedSymbol p {
+      line-height: 1.44rem;
+    }
+    
+    #psi, #psi2 {
+      padding-left: 0.07rem;
+    }
     
     .quote p {
       font-size: 1.75rem;
