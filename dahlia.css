@@ -512,15 +512,15 @@ section {
     .smallerStory {
       transition: box-shadow 0.95s;
       margin-top: 2.8em;
-      padding-top: 1.3rem;
+      padding-top: 2rem;  /*was 1.3rem*/
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       /*width: 200px;
       height: 200px;*/
-      width: 400px;
-      height: 400px;
+      width: 350px;
+      height: 350px;
       border: 3px dotted #DBA869;
       overflow-y: scroll;
       color: Ivory;
@@ -534,7 +534,7 @@ section {
     }
     
     .smallerStory p {
-      font-size: 3em;
+      font-size: 2.5em;
     }
 
     .smallerStory:hover {
