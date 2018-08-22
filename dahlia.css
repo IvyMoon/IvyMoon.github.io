@@ -766,20 +766,18 @@ footer div {
   (orientation: portrait) {
     .menu {
       position: static;
+      z-index: 5;
     }
     
     .downWithRalph {
-      position: fixed;
-      z-index: 2;
+      position: sticky;
     }
     
     .gummyBear {
-      position: fixed;
-      /*z-index: 3;*/
+      position: relative;
     }
     
     .tea {
-      position: sticky;
     }
     
     footer {
