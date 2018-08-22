@@ -262,10 +262,14 @@ a:hover {
     }
     
     #storiesTitle {
+      width: 100%;
+      height: 100%;
       font-size: 10rem;
     }
 
     #storiesDesc {
+      width: 100%;
+      height: 100%;
       font-size: 5.75rem;
     }
 }
