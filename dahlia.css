@@ -497,6 +497,7 @@ section {
     }
 
     .smallerLinks div {
+      width: 100%;
       /*margin-top: -1em;   /*need this to be equal as they go down continuously */
       display: flex;
       display: row;
@@ -520,7 +521,7 @@ section {
       justify-content: center;
       /*width: 200px;
       height: 200px;*/
-      width: 390px;
+      width: auto;
       height: 390px;
       border: 3px dotted #DBA869;
       overflow-y: scroll;
