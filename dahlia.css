@@ -536,6 +536,10 @@ section {
       text-align: center;
     }
     
+    .smallerStory a:nth-child(2) {
+      font-size: 1.5em;
+    }
+    
     .smallerStory p {
       font-size: 2.2em;
       text-align: center;
