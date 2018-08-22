@@ -536,6 +536,7 @@ section {
     
     .smallerStory p {
       font-size: 2em;
+      text-align: center;
     }
 
     .smallerStory:hover {
