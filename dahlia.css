@@ -497,7 +497,7 @@ section {
     }
 
     .smallerLinks div {
-      width: 100%;
+      width: 85%;
       /*margin-top: -1em;   /*need this to be equal as they go down continuously */
       display: flex;
       display: row;
