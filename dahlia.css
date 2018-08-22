@@ -681,6 +681,78 @@ section {
     }
 }
 
+/* iPhone 5/SE smallerStory stuff */
+@media only screen and 
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    .links {
+      display: none;
+    }
+
+    .smallerLinks {
+      width: 100%;
+      margin-top: 1.2em;   /*changed 1.25em to 1.2em */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .smallerLinks div {
+      width: 85%;
+      /*margin-top: -1em;   /*need this to be equal as they go down continuously */
+      display: flex;
+      display: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .smallerLinks div div {
+      margin-left: 0.275em;
+      margin-right: 0.275em;
+    }
+
+    .smallerStory {
+      transition: box-shadow 0.95s;
+      margin-top: 2.8em;
+      padding-top: 1.3rem;  /*was 1.5rem*/
+      /*display: flex;
+      flex-direction: column;
+      align-items: center;*/
+      /*width: 200px;
+      height: 200px;*/
+      width: 390px;
+      height: 390px;
+      border: 3px dotted #DBA869;
+      overflow-y: scroll;
+      color: Ivory;
+      opacity: 0.8;
+      border-radius: 3%;
+    }
+
+    .smallerStory a {
+      font-family: 'Handlee';
+      font-size: 3em;
+      text-align: center;
+    }
+    
+    .smallerStory a:nth-child(2) {
+      font-size: 1.5em;
+    }
+    
+    .smallerStory p {
+      font-size: 2.2em;
+      text-align: center;
+    }
+
+    .smallerStory:hover {
+      box-shadow: 0px 30px 100px rgba(219,168,105,.4);
+    }
+}
+
 /*-------Tidbits of Nonsensical Gibberish--------*/
 
 #pigeon {
@@ -721,6 +793,19 @@ section {
     }
 }
 
+/* iPhone 5/SE nonsensical tidbits stuff */
+@media only screen and 
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+}
+
 
 
 /* footer */
@@ -739,6 +824,28 @@ footer div {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     
+    footer {
+      margin-bottom: -20.5em;    /* not sure if this affects anything. --> probably doesn't */
+    }
+    
+    footer div {
+      font-size: 2.5rem;
+      line-height: 2.5rem; 
+    }
+    
+    footer div a img {
+      height: 100px;
+      width: 100px;
+      margin-top: 0.7rem;
+    }
+}
+
+/* iPhone 5/SE nonsensical tidbits stuff */
+@media only screen and 
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
     footer {
       margin-bottom: -20.5em;    /* not sure if this affects anything. --> probably doesn't */
     }
@@ -801,6 +908,22 @@ footer div {
       align-items: space-evenly;
     }
 }
+/* iPhone 5/5S */
+@media only screen and 
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    #vidDesc {
+      font-size: 3em;
+      margin-bottom: 0.5em;  /*changed */
+    }
+    
+    #allVids {
+      justify-content: space-evenly;
+      align-items: space-evenly;
+    }
+}
 
 /* ----------- About Me ------------ */
 
@@ -826,6 +949,18 @@ footer div {
 @media only screen and
   (min-device-width: 375px) and
   (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    #possum {
+      transform: rotate(360deg);
+      width: 450px;
+      height: 500px;
+    }
+}
+/* iPhone 5S */
+@media only screen and 
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     #possum {
@@ -901,6 +1036,23 @@ footer div {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     
+    .containerStory {
+      width: 90%;
+    }
+    
+    .mainstory {      /* took away the p */
+      width: 100%;
+      font-style: 'Raleway';
+      font-size: 3em;
+    }
+}
+
+/* iPhone 5S */
+@media only screen and 
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
     .containerStory {
       width: 90%;
     }
