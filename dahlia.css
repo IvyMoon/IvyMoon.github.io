@@ -219,7 +219,7 @@ a:hover {
     }
       
     .symbol p, #flippedSymbol p {
-      font-size: 4rem;       /*CHANGED PrEv from 4.75*/
+      font-size: 2.75rem;       /*CHANGED PrEv from 4rem to 2.75rem*/
       line-height: 3rem;   /*CHANGED PrEv from 0.72rem; */
     }
     
@@ -229,7 +229,7 @@ a:hover {
     } */
     
     .quote p {
-      font-size: 1.25rem;   /*CHANGED this from 1.75rem to 1.25rem; */
+      font-size: 1.75rem;   /*CHANGED this to 1.75rem */
       line-height: 2.16rem;
       margin-top: 1.5em;    /*CHANGED this from 1.75em to 1.5em*/
     }
