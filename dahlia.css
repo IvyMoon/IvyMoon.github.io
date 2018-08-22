@@ -488,6 +488,7 @@ section {
     }
 
     .smallerLinks {
+      width: 100%;
       margin-top: 1.25em;   /*ooh-la-la-ha-ha-ho-ho-ho-NO!!! */
       display: flex;
       flex-direction: column;
@@ -535,7 +536,7 @@ section {
     }
     
     .smallerStory p {
-      font-size: 1em;
+      font-size: 1.5em;
     }
 
     .smallerStory:hover {
