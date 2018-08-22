@@ -631,7 +631,7 @@ footer div {
 }
 
 #allVids {
-  margin-top: 1em;
+  margin-top: 1em;    /*changed to 2em from 1em*/
   border: 3px dotted #DBA869;
   width: 95%;
   display: flex;
@@ -661,8 +661,9 @@ footer div {
     }
     
     #allVids {
+      margin-top: 1em;    /*changed to 2em from 1em*/
       flex-direction: column;
-      width: auto;
+      width: 100%;
     }
 }
 
