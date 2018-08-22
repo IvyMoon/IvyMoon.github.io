@@ -224,13 +224,13 @@ a:hover {
     }
     
     #psi, #psi2 {
-      padding-right: 0.35rem;    /*CHANGED */
+      margin-right: 0.35rem;    /*CHANGED from padding to margin */
     }
     
     .quote p {
       font-size: 1.75rem;
       line-height: 2.16rem;
-      margin-top: 2em;    /*CHANGED this*/
+      margin-top: 1.75em;    /*CHANGED this from 2em to 1.75em*/
     }
     
     #howdy {
