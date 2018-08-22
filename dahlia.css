@@ -283,28 +283,6 @@ a:hover {
     .links {
       display: none;
     }
-    
-    .smallerLinks {
-      display: flex;
-    }
-
-    .smallerStory {
-      transition: box-shadow 0.95s;
-      margin-top: 2.8em;
-      padding-top: 1.3rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      /*width: 200px;
-      height: 200px;*/
-      width: 50%;
-      height: 50%;
-      border: 3px dotted #DBA869;
-      overflow-y: scroll;
-      color: Ivory;
-      opacity: 0.8;
-      text-align: center;
-    }  
 }
 /* iPad 1, 2, Mini and Air in Portrait AND Landscape mode*/
 @media only screen and
