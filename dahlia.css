@@ -770,11 +770,13 @@ footer div {
     }
     
     .downWithRalph {
-      position: sticky;
+      z-index: 4;
+      position: fixed;
     }
     
     .gummyBear {
       position: relative;
+      z-index: 3;
     }
     
     .tea {
