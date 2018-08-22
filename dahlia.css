@@ -212,7 +212,10 @@ a:hover {
     .symbol, #flippedSymbol {
       height: 4em;   /* CHANGED PrEv from 6em to 4em */
       margin-top: 2em;   /* CHANGED to have padding top & bottom */
-      margin-bottom: 2em;
+    }
+    
+    #flippedSymbol {
+      margin-bottom: 2em;   /*ditto*/
     }
       
     .symbol p, #flippedSymbol p {
@@ -221,7 +224,7 @@ a:hover {
     }
     
     #psi, #psi2 {
-      padding-right: 0.035;    /*CHANGED */
+      padding-right: 0.35rem;    /*CHANGED */
     }
     
     .quote p {
