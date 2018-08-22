@@ -765,8 +765,7 @@ footer div {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     .menu {
-      position: fixed;
-      z-index: 5;
+      position: static;
     }
     
     .downWithRalph {
@@ -780,10 +779,9 @@ footer div {
     }
     
     .tea {
-      position: absolute;
+      position: sticky;
     }
     
     footer {
-      position: absolute;
     }
 }
