@@ -212,25 +212,25 @@ a:hover {
     .symbol, #flippedSymbol {
       height: 4em;
       margin-top: 2em;
-      position: absolute;
+      position: fixed;
     }
     
     #flippedSymbol {
       margin-bottom: 2em;
-      position: absolute;
+      position: fixed;
     }
       
     .symbol p, #flippedSymbol p {
       font-size: 3.25rem;
       line-height: 2.3rem;
-      position: absolute;
+      position: fixed;
     }
     
     .quote p {
       font-size: 2rem;   /* changed from 1.75rem to 2rem */
       line-height: 2.5rem;   /*changed this from 2.16rem to 2.5rem */
       margin-top: 1.5em;
-      position: absolute;
+      position: fixed;
     }
     
     #howdy {
