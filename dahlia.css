@@ -363,6 +363,86 @@ a:hover {
       line-height: 2rem;
     }
 }
+
+/* iPhone 5/SE welcome stuff */
+@media only screen and 
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    .symbol, #flippedSymbol {
+      height: 4em;
+      margin-top: 2em;
+    }
+    
+    #flippedSymbol {
+      margin-bottom: 2em;
+    }
+      
+    .symbol p, #flippedSymbol p {
+      font-size: 3.25rem;
+      line-height: 2.3rem;
+    }
+    
+    .quote p {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      margin-top: 1.5em;
+    }
+    
+    #howdy {
+      font-size: 3.5rem;
+      line-height: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    #welcome {
+      border: none;
+      width: 95%;
+      height: 95%;
+    }
+    
+    #welcome img {
+      border: 3px dotted #DBA869;
+      width: 100%;
+      height: 100%;
+    }
+    
+    #gnome span p {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+    }
+    
+    section {
+      height: 100%;
+      width: 100%;
+      background: url("./Photos/Brown.JPG") no-repeat bottom right;
+    }
+    
+    #stories {
+      justify-content: center;
+      width: 100%;
+      height: 7em;
+      font-size: 3.5em;
+    }
+    
+    #storiesTitle {
+      color: #8DD1FC;
+      text-align: center;
+      font-size: 2.75rem;
+    }
+
+    #storiesDesc {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    
+    .scroll {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 1.5em;   /*changed*/
+    }
+}
       
 
 #gnome {
