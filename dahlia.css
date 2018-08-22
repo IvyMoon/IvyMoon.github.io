@@ -215,7 +215,7 @@ a:hover {
       
     .symbol p, #flippedSymbol p {
       font-size: 4rem;       /*CHANGED from 4.75*/
-      line-height: 0.72rem;   /*CHANGED PrEv from 1.44rem; */
+      line-height: 3rem;   /*CHANGED PrEv from 0.72rem; */
     }
     
     #psi, #psi2 {
