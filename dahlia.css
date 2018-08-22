@@ -489,7 +489,7 @@ section {
 
     .smallerLinks {
       width: 100%;
-      margin-top: 1.25em;   /*ooh-la-la-ha-ha-ho-ho-ho-NO!!! */
+      margin-top: 1.5em;   /*changed from 1.25em to 1.5em */
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -526,6 +526,7 @@ section {
       overflow-y: scroll;
       color: Ivory;
       opacity: 0.8;
+      border-radius: 3%;   /*changed*/
     }
 
     .smallerStory a {
@@ -535,7 +536,7 @@ section {
     }
     
     .smallerStory p {
-      font-size: 2.2em;   /*changed from 2em to 2.2em */
+      font-size: 2.2em;
       text-align: center;
     }
 
