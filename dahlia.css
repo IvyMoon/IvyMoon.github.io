@@ -96,14 +96,10 @@ a:hover {
 
 /* Mobile Menu */
 @media only screen and
-  ((min-device-width: 375px) and
+  (min-device-width: 375px) and
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
-  (orientation: portrait)),
-  ((min-device-width: 320px) and
-  (max-device-width: 568px) and
-  (-webkit-min-device-pixel-ratio: 2) and
-  (orientation: portrait)){
+  (orientation: portrait) {
     
     .menu {
       height: 24em;
@@ -130,6 +126,32 @@ a:hover {
   (min-device-width: 768px) and
   (max-device-width: 1024px) and
   (-webkit-min-device-pixel-ratio: 1) {
+    a[tabindex]:focus {
+      color: #8DD1FC;
+    }
+}
+
+/* iPhone 5/SE Menu */
+@media only screen and 
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    .menu {
+      height: 24em;
+    }
+    
+    ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .menu nav ul:nth-child(1) {
+      font-size: 3rem;
+    }
+    
     a[tabindex]:focus {
       color: #8DD1FC;
     }
