@@ -488,6 +488,7 @@ section {
     }
 
     .smallerLinks {
+      margin-top: 1.25rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -512,8 +513,10 @@ section {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 200px;
-      height: 200px;
+      /*width: 200px;
+      height: 200px;*/
+      width: 65%;
+      height: 65%;
       border: 3px dotted #DBA869;
       overflow-y: scroll;
       color: Ivory;
