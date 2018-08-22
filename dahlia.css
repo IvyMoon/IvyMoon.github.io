@@ -230,8 +230,6 @@ a:hover {
     .quote p {
       font-size: 1.75rem;
       line-height: 2.16rem;
-      margin-top: 2em;   /* CHANGED to have padding top & bottom */
-      margin-bottom: 2em;
     }
     
     #howdy {
