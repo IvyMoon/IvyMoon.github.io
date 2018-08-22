@@ -776,16 +776,14 @@ footer div {
     
     .gummyBear {
       position: fixed;
-      z-index: 3;
+      /*z-index: 3;*/
     }
     
     .tea {
-      position: fixed;
-      z-index: 4;
+      position: absolute;
     }
     
     footer {
-      position: fixed;
-      z-index: 1;
+      position: absolute;
     }
 }
