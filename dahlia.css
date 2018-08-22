@@ -264,14 +264,12 @@ a:hover {
     
     #storiesTitle {
       width: 100%;
-      height: 100%;
-      font-size: 10rem;
+      font-size: 30rem;
     }
 
     #storiesDesc {
       width: 100%;
-      height: 100%;
-      font-size: 5.75rem;
+      font-size: 20rem;
     }
 }
 /* iPad 1, 2, Mini and Air in Portrait AND Landscape mode*/
