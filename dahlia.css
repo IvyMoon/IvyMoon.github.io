@@ -102,7 +102,7 @@ a:hover {
   (orientation: portrait) {
     
     .menu {
-      height: 24em;   /* CHANGED from 12em */
+      height: 24em;
     }
     
     ul {
@@ -214,7 +214,7 @@ a:hover {
     }
       
     .symbol p, #flippedSymbol p {
-      font-size: 5.75rem; /*CHANGED*/
+      font-size: 4rem;       /*CHANGED from 4.75*/
       line-height: 0.72rem;   /*CHANGED PrEv from 1.44rem; */
     }
     
