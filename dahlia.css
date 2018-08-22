@@ -131,11 +131,6 @@ a:hover {
     }
 }
     
-    /*.Menu nav ul a {
-      font-size: 3rem;   /*RECENT CHANGE --
-} */
-    
-
 /* Quote */
 
 .quote {
@@ -150,8 +145,6 @@ a:hover {
   padding: 0 2em;
   text-align: center;
 }
-
-/* FIX SYMBOLS!!!!!*/
 
 .symbol, #flippedSymbol {
   height: 3em;
@@ -224,8 +217,8 @@ a:hover {
     }
     
     .quote p {
-      font-size: 2rem;   /* changed from 1.75rem to 2rem */
-      line-height: 2.5rem;   /*changed this from 2.16rem to 2.5rem */
+      font-size: 2rem;
+      line-height: 2.5rem;
       margin-top: 1.5em;
     }
     
@@ -296,7 +289,7 @@ a:hover {
     #howdy {
       font-size: 2.5rem;
       line-height: 2rem;    
-      margin-bottom: 1rem;  /* CHANGED PrEv */
+      margin-bottom: 1rem;
     }
     
     #welcome {
@@ -304,14 +297,32 @@ a:hover {
     }
     
     #gnome span p {
-      font-size: 1.5rem;    /* leave this be */
+      font-size: 1.5rem;
       line-height: 2rem;
     }
 }
+
+@media only screen and              /* added this */
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: landscape) {
     
+    #welcome {
+      border-radius: 0%;
+    }
     
+    #howdy {
+      font-size: 2.5rem;
+      line-height: 2rem;    
+      margin-bottom: 1rem;
+    }
     
-      
+    #gnome span p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+}
       
 
 #gnome {
@@ -703,6 +714,18 @@ footer div {
       height: 500px;
     }
 }
+
+@media only screen and              /* added this */
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and 
+  (orientation: landscape) {
+    #possum {
+      transform: rotate(360deg);
+      width: 450px;
+      height: 500px;
+    }
+}
  
 
 
@@ -762,7 +785,7 @@ footer div {
       width: 90%;
     }
     
-    .mainstory {
+    .mainstory p {      /* added the p */
       width: 100%;
       font-style: 'Raleway';
       font-size: 3em;
