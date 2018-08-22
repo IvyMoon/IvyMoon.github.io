@@ -579,10 +579,11 @@ section {
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    #pigeon p, #pancake p, #apple p, #humphrey p, #frog p, #evergreen p {
+    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen {
       /*padding-top: 6em;*/
       display: flex;
       flex-direction: column;
+      justify-content: flex-start;
     }
 }
 
@@ -678,7 +679,9 @@ footer div {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     #possum {
-      transform: rotate(360deg);  /*-180 doesn't work, neither does -90 or 270*/
+      transform: rotate(360deg);
+      width: 250px;
+      height: 300px;
     }
 }
  
