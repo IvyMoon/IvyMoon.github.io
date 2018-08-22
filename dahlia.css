@@ -593,12 +593,13 @@ footer div {
   (orientation: portrait) {
     footer div {
       font-size: 3rem;
-      line-height: 2.5rem;
+      line-height: 3.5rem;  /*changed from 2.5rem to 3.5rem*/
     }
     
     footer div a img {
-      height: 125px;
-      width: 125px;
+      height: 110px;
+      width: 110px;
+      margin-top: 0.5em;
     }
 }
       
