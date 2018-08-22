@@ -8,6 +8,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: box-shadow 0.95s;
+}
+
+body:hover {
+   box-shadow: 0px 0px 0px rgba(56,82,99,0);
 }
 
 /* Menu */
@@ -224,7 +229,7 @@ a:hover {
     }
     
     .quote p {
-      font-size: 1.75rem;
+      font-size: 2rem;   /* changed from 1.75rem to 2rem */
       line-height: 2.16rem;
       margin-top: 1.5em;
     }
@@ -592,13 +597,14 @@ footer div {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     footer div {
-      font-size: 2.75rem;   /*changed from 3rem to 2.75rem */
+      font-size: 2.5rem;   /*changed from 2.75rem to 2.5rem */
       line-height: 3.5rem;
     }
     
     footer div a img {
       height: 105px;
       width: 105px;
+      margin-top: 0.1rem;    /*changed this! */
     }
 }
       
@@ -660,7 +666,7 @@ footer div {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     #possum {
-      transform: rotate(-90deg);
+      transform: rotate(-180deg);
     }
 }
  
