@@ -210,7 +210,7 @@ a:hover {
   (orientation: portrait) {
     
     .symbol, #flippedSymbol {
-      height: 3em;   /* CHANGED PrEv from 6em to 4em */
+      height: 4em;   /* CHANGED PrEv from 6em to 4em */
       margin-top: 2em;   /* CHANGED PrEv to have padding */
     }
     
@@ -229,7 +229,7 @@ a:hover {
     } */
     
     .quote p {
-      font-size: 1.75rem;
+      font-size: 1.25rem;   /*CHANGED this from 1.75rem to 1.25rem; */
       line-height: 2.16rem;
       margin-top: 1.5em;    /*CHANGED this from 1.75em to 1.5em*/
     }
