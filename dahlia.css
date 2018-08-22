@@ -661,13 +661,12 @@ footer div {
     }
     
     #allVids {
-      margin-top: 1em;    /*changed to 2em from 1em*/
-      flex-direction: column;
-      width: 20em;
+      margin-top: 3em;    /*changed to 1em to 3em*/
+      width: 100%;
     }
     
     .shorty {
-      width: 100%;
+      width: 20em;
     }
 }
 
