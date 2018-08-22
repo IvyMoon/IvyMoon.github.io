@@ -211,6 +211,8 @@ a:hover {
     
     .symbol, #flippedSymbol {
       height: 4em;   /* CHANGED PrEv from 6em to 4em */
+      margin-top: 2em;   /* CHANGED to have padding top & bottom */
+      margin-bottom: 2em;
     }
       
     .symbol p, #flippedSymbol p {
@@ -219,14 +221,14 @@ a:hover {
     }
     
     #psi, #psi2 {
-      padding-left: 0;    /*CHANGED from 0.01rem to 0rem */
+      padding-right: 0.035;    /*CHANGED */
     }
     
     .quote p {
       font-size: 1.75rem;
       line-height: 2.16rem;
-      padding-top: 2em;   /* CHANGED to have padding top & bottom */
-      padding-bottom: 2em;
+      margin-top: 2em;   /* CHANGED to have padding top & bottom */
+      margin-bottom: 2em;
     }
     
     #howdy {
