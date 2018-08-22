@@ -517,6 +517,7 @@ section {
       padding-top: 1.5rem;  /*was 1.3rem*/
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: center;
       /*width: 200px;
