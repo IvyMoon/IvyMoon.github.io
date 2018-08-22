@@ -799,7 +799,7 @@ footer div {
       width: 90%;
     }
     
-    .mainstory p {      /* added the p */
+    .mainstory {      /* took away the p */
       width: 100%;
       font-style: 'Raleway';
       font-size: 3em;
