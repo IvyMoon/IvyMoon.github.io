@@ -500,6 +500,7 @@ section {
       display: flex;
       display: column;
       align-items: center;
+      justify-content: center;
     }
 
     .smallerLinks div div {
@@ -514,10 +515,11 @@ section {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       /*width: 200px;
       height: 200px;*/
-      width: 700px;
-      height: 700px;
+      width: 500px;
+      height: 500px;
       border: 3px dotted #DBA869;
       overflow-y: scroll;
       color: Ivory;
