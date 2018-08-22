@@ -223,8 +223,8 @@ a:hover {
       line-height: 3rem;   /*CHANGED PrEv from 0.72rem; */
     }
     
-    #psi, #psi2 {
-      padding-right: 3rem;    /*CHANGED from margin-right 0.35rem to padding-right 3rem */
+    span #psi, span #psi2 {
+      padding-right: 1rem;    /*CHANGED from padding-right 3rem to padding-right 1rem */
     }
     
     .quote p {
