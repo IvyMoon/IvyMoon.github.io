@@ -272,10 +272,59 @@ a:hover {
     }
 
     #storiesDesc {
-      color: #8DD1FC;
       text-align: center;
       font-size: 1.5rem;
     }
+    
+    .scroll {
+      height: 3.5rem;
+    }
+    
+    .links {
+      display: none;
+    }
+    
+    .smallerLinks {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .smallerLinks div {
+      display: flex;
+      display: row;
+      align-items: center;
+    }
+
+    .smallerLinks div div {
+      margin-left: 0.275em;
+      margin-right: 0.275em;
+    }
+
+    .smallerStory {
+      transition: box-shadow 0.95s;
+      margin-top: 2.8em;
+      padding-top: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+      height: 200px;
+      border: 3px dotted #DBA869;
+      overflow-y: scroll;
+      color: Ivory;
+      opacity: 0.8;
+      text-align: center;
+    }
+
+    .smallerStory a {
+      font-family: 'Handlee';
+    }
+
+    .smallerStory:hover {
+      box-shadow: 0px 30px 100px rgba(219,168,105,.4);
+    }   
 }
 /* iPad 1, 2, Mini and Air in Portrait AND Landscape mode*/
 @media only screen and
