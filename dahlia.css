@@ -219,12 +219,14 @@ a:hover {
     }
     
     #psi, #psi2 {
-      padding-left: 0.01rem;    /*CHANGED from 0.035rem to 0.01rem */
+      padding-left: 0;    /*CHANGED from 0.01rem to 0rem */
     }
     
     .quote p {
       font-size: 1.75rem;
       line-height: 2.16rem;
+      padding-top: 2em;   /* CHANGED to have padding top & bottom */
+      padding-bottom: 2em;
     }
     
     #howdy {
