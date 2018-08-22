@@ -580,7 +580,6 @@ section {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen {
-      /*padding-top: 6em;*/
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -606,12 +605,12 @@ footer div {
   (orientation: portrait) {
     
     footer {
-      margin-bottom: -10.5em;    /* changed from -5.5em -10.5em */
+      margin-bottom: -20.5em;    /* changed from -10.5em to -20.5em */
     }
     
     footer div {
       font-size: 2.5rem;   /*changed from 2.75rem to 2.5rem */
-      line-height: 3.5rem;   /*changed from 3.5rem to 2.5rem*/
+      line-height: 2.5rem;   /*changed from 3.5rem to 2.5rem*/
     }
     
     footer div a img {
@@ -680,8 +679,8 @@ footer div {
   (orientation: portrait) {
     #possum {
       transform: rotate(360deg);
-      width: 250px;
-      height: 300px;
+      width: 350px;
+      height: 400px;
     }
 }
  
