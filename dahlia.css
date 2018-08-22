@@ -219,7 +219,7 @@ a:hover {
     }
     
     #psi, #psi2 {
-      padding-left: 0.035rem;    /*CHANGED from 0.07rem to 0.035rem */
+      padding-left: 0.01rem;    /*CHANGED from 0.035rem to 0.01rem */
     }
     
     .quote p {
