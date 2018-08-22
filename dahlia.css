@@ -660,14 +660,6 @@ footer div {
       font-size: 3em;
       margin-bottom: 3em;  /*added this... */
     }
-    
-    #allVids {
-      margin-top: 3em;    /*changed to 1em to 3em ; this ain't not never doing nothing.*/
-    }
-    
-    .shorty {
-      height: 10em;
-    }
 }
 
 /* ----------- About Me ------------ */
