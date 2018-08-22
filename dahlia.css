@@ -592,8 +592,8 @@ footer div {
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     footer div {
-      font-size: 3rem;
-      line-height: 3.5rem;  /*changed from 2.5rem to 3.5rem*/
+      font-size: 2.75rem;   /*changed from 3rem to 2.75rem */
+      line-height: 3.5rem;
     }
     
     footer div a img {
@@ -652,6 +652,16 @@ footer div {
   height: 250px;
   border-radius: 100%;
   border: 2px solid Ivory;
+}
+
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    #possum {
+      transform: rotate(-90deg);
+    }
 }
  
 
