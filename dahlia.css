@@ -663,6 +663,10 @@ footer div {
     #allVids {
       margin-top: 1em;    /*changed to 2em from 1em*/
       flex-direction: column;
+      width: 20em;
+    }
+    
+    .shorty {
       width: 100%;
     }
 }
