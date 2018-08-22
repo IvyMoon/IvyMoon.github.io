@@ -496,8 +496,9 @@ section {
     }
 
     .smallerLinks div {
+      /*margin-top: -1em;   /*need this to be equal as they go down continuously */
       display: flex;
-      display: row;
+      display: column;
       align-items: center;
     }
 
@@ -515,8 +516,8 @@ section {
       align-items: center;
       /*width: 200px;
       height: 200px;*/
-      width: 500px;
-      height: 500px;
+      width: 700px;
+      height: 700px;
       border: 3px dotted #DBA869;
       overflow-y: scroll;
       color: Ivory;
@@ -526,6 +527,11 @@ section {
 
     .smallerStory a {
       font-family: 'Handlee';
+      font-size: 3em;
+    }
+    
+    .smallerStory p {
+      font-size: 3em;
     }
 
     .smallerStory:hover {
