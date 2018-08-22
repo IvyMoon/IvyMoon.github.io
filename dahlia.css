@@ -514,10 +514,10 @@ section {
     .smallerStory {
       transition: box-shadow 0.95s;
       margin-top: 2.8em;
-      padding-top: 1.5rem;  /*was 1.3rem*/
-      display: flex;
+      padding-top: 1.3rem;  /*was 1.5rem*/
+      /*display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: center;*/
       /*width: 200px;
       height: 200px;*/
       width: 390px;
