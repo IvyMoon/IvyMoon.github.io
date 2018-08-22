@@ -658,8 +658,8 @@ footer div {
 @media only screen and
   (min-device-width: 375px) and
   (max-device-width: 667px) and
-  (-webkit-min-device-pixel-ratio: 2) 
-  /*and (orientation: portrait)*/ {
+  (-webkit-min-device-pixel-ratio: 2) and 
+  (orientation: portrait) {
     #vidDesc {
       font-size: 3em;
       margin-bottom: 0.5em;  /*changed */
@@ -750,4 +750,21 @@ footer div {
 
 #M {
   background-color: #946650;
+}
+
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    
+    .containerStory {
+      width: 90%;
+    }
+    
+    .mainstory {
+      width: 100%;
+      font-style: 'Raleway';
+      font-size: 3em;
+    }  
 }
