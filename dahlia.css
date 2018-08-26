@@ -767,12 +767,20 @@ section {
   color: black;
 }
 
+#cow {
+  background-color: #424D4F;
+}
+
+#englightenment {
+  background-color: #A2CBF7;
+}
+
 @media only screen and
   (min-device-width: 375px) and
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen {
+    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen, #cow, #englightenment {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -785,7 +793,7 @@ section {
   (max-device-width: 568px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen {
+    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen, #cow, #englightenment {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
