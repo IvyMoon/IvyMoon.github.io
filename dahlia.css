@@ -38,7 +38,7 @@ a:hover {
   color: #EBCEFC;
 }
 
-.smallerMenu { /* ------ samller -------- */
+.smallerMenu {
   display: none;
 }
 
@@ -46,12 +46,12 @@ a:hover {
   display: none;
 }
 
-/* Making Browser Smaller on Laptop/Desktop */
+/* Making Browser Smaller on Laptop/Desktop Menu */
 @media only screen and (max-width: 650px) {
   .menu {
     display: none;
   }
-  
+
   .smallerMenu {
     display: flex;
     flex-direction: column;
@@ -94,28 +94,63 @@ a:hover {
   }
 }
 
-/* Mobile Menu */
+/* iPhone 4 and 4S Menu (Portrait) CHECK TO SEE HOW THIS LOOKS */
 @media only screen and
-  (min-device-width: 375px) and
-  (max-device-width: 667px) and
+  (min-device-width: 320px) and
+  (max-device-width: 480px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientatio: portrait) {
+
+  }
+
+/* iPhone 5, 5S, 5C and 5SE Menu (Portrait) */
+@media only screen and
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    
     .menu {
       height: 24em;
     }
-    
+
     ul {
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
     }
-    
+
     .menu nav ul:nth-child(1) {
       font-size: 3rem;
     }
-    
+
+    a[tabindex]:focus {
+      color: #8DD1FC;
+    }
+}
+
+/* iPhone 6, 6S, 7 and 8 Menu (Portrait) IS THIS THE SAME AS iPHONE X ? */
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+
+    .menu {
+      height: 24em;
+    }
+
+    ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .menu nav ul:nth-child(1) {
+      font-size: 3rem;
+    }
+
     a[tabindex]:focus {
       color: #8DD1FC;
     }
@@ -131,32 +166,6 @@ a:hover {
     }
 }
 
-/* iPhone 5/SE Menu */
-@media only screen and 
-  (min-device-width: 320px) and
-  (max-device-width: 568px) and
-  (-webkit-min-device-pixel-ratio: 2) and
-  (orientation: portrait) {
-    .menu {
-      height: 24em;
-    }
-    
-    ul {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-    
-    .menu nav ul:nth-child(1) {
-      font-size: 3rem;
-    }
-    
-    a[tabindex]:focus {
-      color: #8DD1FC;
-    }
-}
-    
 /* Quote */
 
 .quote {
@@ -214,222 +223,6 @@ a:hover {
   width: 55%;
   position: relative;
 }
-/* Using this to try to fix the way the picture shows up on Linux*/
-@media screen and (min-width: 1800px), (max-width: 3200px) {
-    #welcome img {
-      height: auto;
-    }
-}
-/* iPhone 6, 6S, 7 and 8 in Portrait mode */
-/* Might be better to scroll content over picture??? Change later to see */
-@media only screen and
-  (min-device-width: 375px) and
-  (max-device-width: 667px) and
-  (-webkit-min-device-pixel-ratio: 2) and
-  (orientation: portrait) {
-    
-    .symbol, #flippedSymbol {
-      height: 4em;
-      margin-top: 2em;
-    }
-    
-    #flippedSymbol {
-      margin-bottom: 2em;
-    }
-      
-    .symbol p, #flippedSymbol p {
-      font-size: 3.25rem;
-      line-height: 2.3rem;
-    }
-    
-    .quote p {
-      font-size: 2rem;
-      line-height: 2.5rem;
-      margin-top: 1.5em;
-    }
-    
-    #howdy {
-      font-size: 3.5rem;
-      line-height: 2rem;
-      margin-bottom: 1.5rem;
-    }
-    
-    #welcome {
-      border: none;
-      width: 95%;
-      height: 95%;
-    }
-    
-    #welcome img {
-      border: 3px dotted #DBA869;
-      width: 100%;
-      height: 100%;
-    }
-    
-    #gnome span p {
-      font-size: 2.5rem;
-      line-height: 2.5rem;
-    }
-    
-    section {
-      height: 100%;
-      width: 100%;
-      background: url("./Photos/Brown.JPG") no-repeat bottom right;
-    }
-    
-    #stories {
-      justify-content: center;
-      width: 100%;
-      height: 7em;
-      font-size: 3.5em;
-    }
-    
-    #storiesTitle {
-      color: #8DD1FC;
-      text-align: center;
-      font-size: 2.75rem;
-    }
-
-    #storiesDesc {
-      text-align: center;
-      font-size: 1.5rem;
-    }
-    
-    .scroll {
-      font-size: 2.5rem;
-      text-align: center;
-      margin-bottom: 1.5em;   /*changed*/
-    }
-}
-/* iPad 1, 2, Mini and Air in Portrait AND Landscape mode*/
-@media only screen and
-  (min-device-width: 768px) and
-  (max-device-width: 1024px) and
-  (-webkit-min-device-pixel-ratio: 1) {
-    
-    .quote p {
-      font-size: 1.5rem;
-      line-height: 2.16rem;
-    }
-    
-    #howdy {
-      font-size: 2.5rem;
-      line-height: 2rem;    
-      margin-bottom: 1rem;
-    }
-    
-    #welcome {
-      border-radius: 0%;    
-    }
-    
-    #gnome span p {
-      font-size: 1.5rem;
-      line-height: 2rem;
-    }
-}
-
-@media only screen and              /* added this */
-  (min-device-width: 375px) and
-  (max-device-width: 667px) and
-  (-webkit-min-device-pixel-ratio: 2) and
-  (orientation: landscape) {
-    
-    #welcome {
-      border-radius: 0%;
-    }
-    
-    #howdy {
-      font-size: 2.5rem;
-      line-height: 2rem;    
-      margin-bottom: 1rem;
-    }
-    
-    #gnome span p {
-      font-size: 1.5rem;
-      line-height: 2rem;
-    }
-}
-
-/* iPhone 5/SE welcome stuff */
-@media only screen and 
-  (min-device-width: 320px) and
-  (max-device-width: 568px) and
-  (-webkit-min-device-pixel-ratio: 2) and
-  (orientation: portrait) {
-    .symbol, #flippedSymbol {
-      height: 4em;
-      margin-top: 2em;
-    }
-    
-    #flippedSymbol {
-      margin-bottom: 2em;
-    }
-      
-    .symbol p, #flippedSymbol p {
-      font-size: 3.25rem;
-      line-height: 2.3rem;
-    }
-    
-    .quote p {
-      font-size: 2rem;
-      line-height: 2.5rem;
-      margin-top: 1.5em;
-    }
-    
-    #howdy {
-      font-size: 3.5rem;
-      line-height: 2rem;
-      margin-bottom: 1.5rem;
-    }
-    
-    #welcome {
-      border: none;
-      width: 95%;
-      height: 95%;
-    }
-    
-    #welcome img {
-      border: 3px dotted #DBA869;
-      width: 100%;
-      height: 100%;
-    }
-    
-    #gnome span p {
-      font-size: 2.5rem;
-      line-height: 2.5rem;
-    }
-    
-    section {
-      height: 100%;
-      width: 100%;
-      background: url("./Photos/Brown.JPG") no-repeat bottom right;
-    }
-    
-    #stories {
-      justify-content: center;
-      width: 100%;
-      height: 7em;
-      font-size: 3.5em;
-    }
-    
-    #storiesTitle {
-      color: #8DD1FC;
-      text-align: center;
-      font-size: 2.75rem;
-    }
-
-    #storiesDesc {
-      text-align: center;
-      font-size: 1.5rem;
-    }
-    
-    .scroll {
-      font-size: 2.5rem;
-      text-align: center;
-      margin-bottom: 1.5em;   /*changed*/
-    }
-}
-      
 
 #gnome {
   display: flex;
@@ -440,6 +233,173 @@ a:hover {
 #gnome p {
   line-height: 1.22rem;
   word-spacing: 0.03rem;
+}
+
+/* Lenovo fix for Welcome image */
+@media screen and (min-width: 1800px), (max-width: 3200px) {
+    #welcome img {
+      height: auto;
+    }
+}
+
+/* iPhone 4 and 4S Quote and Welcome (Portrait) CHECK TO SEE HOW THIS LOOKS */
+@media only screen and
+  (min-device-width: 320px) and
+  (max-device-width: 480px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+
+  }
+
+/* iPhone 5, 5S, 5C and 5SE Quote and Welcome (Portrait) */
+@media only screen and
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    .symbol, #flippedSymbol {
+      height: 4em;
+      margin-top: 2em;
+    }
+
+    #flippedSymbol {
+      margin-bottom: 2em;
+    }
+
+    .symbol p, #flippedSymbol p {
+      font-size: 3.25rem;
+      line-height: 2.3rem;
+    }
+
+    .quote p {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      margin-top: 1.5em;
+    }
+
+    #howdy {
+      font-size: 3.5rem;
+      line-height: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    #welcome {
+      border: none;
+      width: 95%;
+      height: 95%;
+    }
+
+    #welcome img {
+      border: 3px dotted #DBA869;
+      width: 100%;
+      height: 100%;
+    }
+
+    #gnome span p {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+    }
+}
+
+/* iPhone 5, 5S, 5C and 5SE Quote and Welcome (Landscape) */
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: landscape) {
+
+    #welcome {
+      border-radius: 0%;
+    }
+
+    #howdy {
+      font-size: 2.5rem;
+      line-height: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    #gnome span p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+}
+
+/* iPhone 6, 6S, 7 and 8 Quote and Welcome (Portrait) IS THIS THE SAME AS iPHONE X ? */
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+
+    .symbol, #flippedSymbol {
+      height: 4em;
+      margin-top: 2em;
+    }
+
+    #flippedSymbol {
+      margin-bottom: 2em;
+    }
+
+    .symbol p, #flippedSymbol p {
+      font-size: 3.25rem;
+      line-height: 2.3rem;
+    }
+
+    .quote p {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      margin-top: 1.5em;
+    }
+
+    #howdy {
+      font-size: 3.5rem;
+      line-height: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    #welcome {
+      border: none;
+      width: 95%;
+      height: 95%;
+    }
+
+    #welcome img {
+      border: 3px dotted #DBA869;
+      width: 100%;
+      height: 100%;
+    }
+
+    #gnome span p {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+    }
+}
+
+/* iPad 1, 2, Mini and Air Quote and Welcome (Portrait AND Landscape) */
+@media only screen and
+  (min-device-width: 768px) and
+  (max-device-width: 1024px) and
+  (-webkit-min-device-pixel-ratio: 1) {
+
+    .quote p {
+      font-size: 1.5rem;
+      line-height: 2.16rem;
+    }
+
+    #howdy {
+      font-size: 2.5rem;
+      line-height: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    #welcome {
+      border-radius: 0%;
+    }
+
+    #gnome span p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
 }
 
 /* Stories */
@@ -532,10 +492,7 @@ section {
   display: none;
 }
 
-/* A better way to do this would be to change the already-existing stuff instead
-  of copying, pasting, and re-organizing the copied stuff, but it doesn't look
-  as good... */
-
+/* Making Browser Smaller on Laptop/Desktop Stories */
 @media only screen and (max-width: 650px) {
   .links {
     display: none;
@@ -584,30 +541,59 @@ section {
   }
 }
 
-/*@media only screen and (max-width: 650px) {
-  .links {
-    flex-wrap: wrap;
-  }
-
-  .story {
-    margin-left: 0.275em;
-    margin-right: 0.275em;
-    margin-bottom: 2.0em;
-  }
-} ********This ^^^^ would work, but looks less good ********* */
-
+/* iPhone 4 and 4S Stories (Portrait) CHECK TO SEE HOW THIS LOOKS */
 @media only screen and
-  (min-device-width: 375px) and
-  (max-device-width: 667px) and
+  (min-device-width: 320px) and
+  (max-device-width: 480px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
+
+  }
+
+/* iPhone 5, 5S, 5C and 5SE Stories (Portrait) CHANGE THIS */
+@media only screen and
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+
+    section {
+      height: 100%;
+      width: 100%;
+      background: url("./Photos/Brown.JPG") no-repeat bottom right;
+    }
+
+    #stories {
+      justify-content: center;
+      width: 100%;
+      height: 7em;
+      font-size: 3.5em;
+    }
+
+    #storiesTitle {
+      color: #8DD1FC;
+      text-align: center;
+      font-size: 2.75rem;
+    }
+
+    #storiesDesc {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .scroll {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+
     .links {
       display: none;
     }
 
     .smallerLinks {
       width: 100%;
-      margin-top: 1.2em;   /*changed 1.25em to 1.2em */
+      margin-top: 1.2em;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -616,7 +602,6 @@ section {
 
     .smallerLinks div {
       width: 85%;
-      /*margin-top: -1em;   /*need this to be equal as they go down continuously */
       display: flex;
       display: row;
       flex-wrap: wrap;
@@ -632,12 +617,7 @@ section {
     .smallerStory {
       transition: box-shadow 0.95s;
       margin-top: 2.8em;
-      padding-top: 1.3rem;  /*was 1.5rem*/
-      /*display: flex;
-      flex-direction: column;
-      align-items: center;*/
-      /*width: 200px;
-      height: 200px;*/
+      padding-top: 1.3rem;
       width: 390px;
       height: 390px;
       border: 3px dotted #DBA869;
@@ -652,11 +632,11 @@ section {
       font-size: 3em;
       text-align: center;
     }
-    
+
     .smallerStory a:nth-child(2) {
       font-size: 1.5em;
     }
-    
+
     .smallerStory p {
       font-size: 2.2em;
       text-align: center;
@@ -667,19 +647,50 @@ section {
     }
 }
 
-/* iPhone 5/SE smallerStory stuff */
-@media only screen and 
-  (min-device-width: 320px) and
-  (max-device-width: 568px) and
+/* iPhone 6, 6S, 7 and 8 Stories (Portrait) IS THIS THE SAME AS iPHONE X ? */
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
+
+    section {
+      height: 100%;
+      width: 100%;
+      background: url("./Photos/Brown.JPG") no-repeat bottom right;
+    }
+
+    #stories {
+      justify-content: center;
+      width: 100%;
+      height: 7em;
+      font-size: 3.5em;
+    }
+
+    #storiesTitle {
+      color: #8DD1FC;
+      text-align: center;
+      font-size: 2.75rem;
+    }
+
+    #storiesDesc {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .scroll {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 1.5em;
+    }
+
     .links {
       display: none;
     }
 
     .smallerLinks {
       width: 100%;
-      margin-top: 1.2em;   /*changed 1.25em to 1.2em */
+      margin-top: 1.2em;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -688,7 +699,6 @@ section {
 
     .smallerLinks div {
       width: 85%;
-      /*margin-top: -1em;   /*need this to be equal as they go down continuously */
       display: flex;
       display: row;
       flex-wrap: wrap;
@@ -704,12 +714,7 @@ section {
     .smallerStory {
       transition: box-shadow 0.95s;
       margin-top: 2.8em;
-      padding-top: 1.3rem;  /*was 1.5rem*/
-      /*display: flex;
-      flex-direction: column;
-      align-items: center;*/
-      /*width: 200px;
-      height: 200px;*/
+      padding-top: 1.3rem;
       width: 390px;
       height: 390px;
       border: 3px dotted #DBA869;
@@ -724,11 +729,11 @@ section {
       font-size: 3em;
       text-align: center;
     }
-    
+
     .smallerStory a:nth-child(2) {
       font-size: 1.5em;
     }
-    
+
     .smallerStory p {
       font-size: 2.2em;
       text-align: center;
@@ -736,6 +741,70 @@ section {
 
     .smallerStory:hover {
       box-shadow: 0px 30px 100px rgba(219,168,105,.4);
+    }
+}
+
+/* footer */
+
+footer div {
+  padding-top: 1.6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* iPhone 4 and 4S Footer (Portrait) CHECK TO SEE HOW THIS LOOKS */
+@media only screen and
+  (min-device-width: 320px) and
+  (max-device-width: 480px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+
+  }
+
+/* iPhone 5, 5S, 5C and 5SE Footer (Portrait) */
+@media only screen and
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    footer {
+      margin-bottom: -20.5em;    /* not sure if this affects anything */
+    }
+
+    footer div {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+    }
+
+    footer div a img {
+      height: 100px;
+      width: 100px;
+      margin-top: 0.7rem;
+    }
+}
+
+/* iPhone 6, 6S, 7 and 8 Footer (Portrait) IS THIS THE SAME AS iPHONE X ? */
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+
+    footer {
+      margin-bottom: -20.5em;    /* not sure if this affects anything */
+    }
+
+    footer div {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+    }
+
+    footer div a img {
+      height: 100px;
+      width: 100px;
+      margin-top: 0.7rem;
     }
 }
 
@@ -775,20 +844,18 @@ section {
   background-color: #071532;
 }
 
+/* iPhone 4 and 4S Tidbits of Nonsensical Gibberish (Portrait)
+   CHECK TO SEE HOW THIS LOOKS */
 @media only screen and
-  (min-device-width: 375px) and
-  (max-device-width: 667px) and
+  (min-device-width: 320px) and
+  (max-device-width: 480px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen, #cow, #englightenment {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-    }
-}
 
-/* iPhone 5/SE nonsensical tidbits stuff */
-@media only screen and 
+  }
+
+/* iPhone 5, 5S, 5C and 5SE Tidbits of Nonsensical Gibberish (Portrait) */
+@media only screen and
   (min-device-width: 320px) and
   (max-device-width: 568px) and
   (-webkit-min-device-pixel-ratio: 2) and
@@ -800,62 +867,19 @@ section {
     }
 }
 
-
-
-/* footer */
-
-footer div {
-  padding-top: 1.6em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
+/* iPhone 6, 6S, 7 and 8 Tidbits of Nonsensical Gibberish (Portrait)
+   IS THIS THE SAME AS iPHONE X ? */
 @media only screen and
   (min-device-width: 375px) and
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    
-    footer {
-      margin-bottom: -20.5em;    /* not sure if this affects anything. --> probably doesn't */
-    }
-    
-    footer div {
-      font-size: 2.5rem;
-      line-height: 2.5rem; 
-    }
-    
-    footer div a img {
-      height: 100px;
-      width: 100px;
-      margin-top: 0.7rem;
+    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen, #cow, #englightenment {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
     }
 }
-
-/* iPhone 5/SE nonsensical tidbits stuff */
-@media only screen and 
-  (min-device-width: 320px) and
-  (max-device-width: 568px) and
-  (-webkit-min-device-pixel-ratio: 2) and
-  (orientation: portrait) {
-    footer {
-      margin-bottom: -20.5em;    /* not sure if this affects anything. --> probably doesn't */
-    }
-    
-    footer div {
-      font-size: 2.5rem;
-      line-height: 2.5rem; 
-    }
-    
-    footer div a img {
-      height: 100px;
-      width: 100px;
-      margin-top: 0.7rem;
-    }
-}
-      
 
 /* ----------- Videos ------------ */
 
@@ -867,7 +891,7 @@ footer div {
 }
 
 #allVids {
-  margin-top: 1em;    /*changed to 2em from 1em*/
+  margin-top: 1em;
   border: 3px dotted #DBA869;
   width: 95%;
   display: flex;
@@ -887,32 +911,43 @@ footer div {
   margin-top: 0.75em;
 }
 
+/* iPhone 4 and 4S Videos (Portrait) CHECK TO SEE HOW THIS LOOKS */
 @media only screen and
-  (min-device-width: 375px) and
-  (max-device-width: 667px) and
-  (-webkit-min-device-pixel-ratio: 2) and 
+  (min-device-width: 320px) and
+  (max-device-width: 480px) and
+  (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    #vidDesc {
-      font-size: 3em;
-      margin-bottom: 0.5em;  /*changed */
-    }
-    
-    #allVids {
-      justify-content: space-evenly;
-      align-items: space-evenly;
-    }
-}
-/* iPhone 5/5S */
-@media only screen and 
+
+  }
+
+/* iPhone 5, 5S, 5C and 5SE Videos (Portrait) */
+@media only screen and
   (min-device-width: 320px) and
   (max-device-width: 568px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
     #vidDesc {
       font-size: 3em;
-      margin-bottom: 0.5em;  /*changed */
+      margin-bottom: 0.5em;
     }
-    
+
+    #allVids {
+      justify-content: space-evenly;
+      align-items: space-evenly;
+    }
+}
+
+/* iPhone 6, 6S, 7 and 8 Videos (Portrait) IS THIS THE SAME AS iPHONE X ? */
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    #vidDesc {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
     #allVids {
       justify-content: space-evenly;
       align-items: space-evenly;
@@ -926,7 +961,7 @@ footer div {
 }
 
 .heck {
-  margin: 3.3em 0 1em 0;   /*Changed 1.7em (bottom) to 1em*/
+  margin: 3.3em 0 1em 0;
 }
 
 #possum {
@@ -940,19 +975,26 @@ footer div {
   border: 2px solid Ivory;
 }
 
+/* iPhone 4 and 4S About Me (Portrait) CHECK TO SEE HOW THIS LOOKS */
 @media only screen and
-  (min-device-width: 375px) and
-  (max-device-width: 667px) and
+  (min-device-width: 320px) and
+  (max-device-width: 480px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    #possum {
-      transform: rotate(360deg);
-      width: 450px;
-      height: 500px;
-    }
-}
-/* iPhone 5S */
-@media only screen and 
+
+  }
+
+/* iPhone 4 and 4S About Me (Landscape) CHECK TO SEE HOW THIS LOOKS */
+@media only screen and
+  (min-device-width: 320px) and
+  (max-device-width: 480px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: landscape) {
+
+  }
+
+/* iPhone 5, 5S, 5C and 5SE About Me (Portrait) */
+@media only screen and
   (min-device-width: 320px) and
   (max-device-width: 568px) and
   (-webkit-min-device-pixel-ratio: 2) and
@@ -964,10 +1006,34 @@ footer div {
     }
 }
 
-@media only screen and              /* changed this */
+/* iPhone 5, 5S, 5C and 5SE About Me (Landscape) CHECK TO SEE HOW THIS LOOKS */
+@media only screen and
+  (min-device-width: 320px) and
+  (max-device-width: 568px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: landscape) {
+
+}
+
+/* iPhone 6, 6S, 7 and 8 About Me (Portrait) IS THIS THE SAME AS iPHONE X ? */
+@media only screen and
   (min-device-width: 375px) and
   (max-device-width: 667px) and
-  (-webkit-min-device-pixel-ratio: 2) and 
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+    #possum {
+      transform: rotate(360deg);
+      width: 450px;
+      height: 500px;
+    }
+}
+
+/* iPhone 6, 6S, 7 and 8 About Me (Landscape)
+   IS THIS THE SAME AS iPHONE 6+, 7+ AND 8+ ... AND iPHONE X ? */
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
   (orientation: landscape) {
     #possum {
       transform: rotate(360deg);
@@ -975,8 +1041,6 @@ footer div {
       height: 300px;
     }
 }
- 
-
 
 /* ----------- Main Stories ----------- */
 
@@ -1024,25 +1088,17 @@ footer div {
   background-color: #946650;
 }
 
+/* iPhone 4 and 4S Main Stories (Portrait) CHECK TO SEE HOW THIS LOOKS */
 @media only screen and
-  (min-device-width: 375px) and
-  (max-device-width: 667px) and
+  (min-device-width: 320px) and
+  (max-device-width: 480px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    
-    .containerStory {
-      width: 90%;
-    }
-    
-    .mainstory {      /* took away the p */
-      width: 100%;
-      font-style: 'Raleway';
-      font-size: 3em;
-    }
-}
 
-/* iPhone 5S */
-@media only screen and 
+  }
+
+/* iPhone 5, 5S, 5C and 5SE Main Stories (Portrait) */
+@media only screen and
   (min-device-width: 320px) and
   (max-device-width: 568px) and
   (-webkit-min-device-pixel-ratio: 2) and
@@ -1050,8 +1106,26 @@ footer div {
     .containerStory {
       width: 90%;
     }
-    
-    .mainstory {      /* took away the p */
+
+    .mainstory {
+      width: 100%;
+      font-style: 'Raleway';
+      font-size: 3em;
+    }
+}
+
+/* iPhone 6, 6S, 7 and 8 Main Stories (Portrait) IS THIS THE SAME AS iPHONE X ? */
+@media only screen and
+  (min-device-width: 375px) and
+  (max-device-width: 667px) and
+  (-webkit-min-device-pixel-ratio: 2) and
+  (orientation: portrait) {
+
+    .containerStory {
+      width: 90%;
+    }
+
+    .mainstory {
       width: 100%;
       font-style: 'Raleway';
       font-size: 3em;
