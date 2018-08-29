@@ -664,7 +664,7 @@ section {
       justify-content: center;
       width: 100%;
       height: 7em;
-      font-size: 3.5em;
+      font-size: 10em;   /* changed from 3.5em to 10em */
     }
 
     #storiesTitle {
