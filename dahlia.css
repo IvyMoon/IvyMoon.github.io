@@ -670,12 +670,12 @@ section {
     #storiesTitle {
       color: #8DD1FC;
       text-align: center;
-      font-size: 7.75rem; /* changed from 2.75rem to 5.75rem */
+      font-size: 5.75rem; /* changed from 2.75rem to 5.75rem */
     }
 
     #storiesDesc {
       text-align: center;
-      font-size: 6.5rem;   /* changed from 1.5rem to 4.5rem */
+      font-size: 4.5rem;   /* changed from 1.5rem to 4.5rem */
     }
 
     .scroll {
