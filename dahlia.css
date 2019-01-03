@@ -892,7 +892,7 @@ footer div {
     }*/
     
     #pigeon div {
-      overflow: scroll;
+      overflow: hidden;
     }
     
     #pigeon div:nth-child(1) {
