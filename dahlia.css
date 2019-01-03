@@ -883,7 +883,7 @@ footer div {
       justify-content: flex-start;
     }
     
-    #pigeon p { /* Added this, but does it work? */
+    #pigeon { /* Added this, but does it work? */
       overflow: hidden;
     }
 }
