@@ -884,7 +884,7 @@ footer div {
     }
     
     #pigeon { /* Added this, but does it work? */
-      overflow: hidden;
+      overflow: hidden !important;
     }
 }
 
