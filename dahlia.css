@@ -813,6 +813,10 @@ footer div {
 
 /*-------Tidbits of Nonsensical Gibberish--------*/
 
+#fakepigeon {
+  background-color: #3C3FA1;
+}
+
 #pigeon {
   background-color: #3C3FA1;
 }
@@ -877,10 +881,15 @@ footer div {
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen, #cow, #englightenment {
+    #fakepigeon, #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen, #cow, #englightenment {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+    }
+    
+    #fakepigeon {
+      display: hidden;
+      position: absolute;
     }
 }
 
