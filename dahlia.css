@@ -894,7 +894,7 @@ footer div {
     
     #fakepigeon {
       display: hidden;
-      position: relative;
+      position: static;
       z-index: 2;
     }
     
