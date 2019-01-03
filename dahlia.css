@@ -492,6 +492,10 @@ section {
   display: none;
 }
 
+.mainstory p { /* Added this to see if font looks better */
+  font-family: 'Raleway';
+}
+
 /* Making Browser Smaller on Laptop/Desktop Stories */
 @media only screen and (max-width: 650px) {
   .links {
