@@ -847,11 +847,6 @@ footer div {
   background-color: #071532;
 }
 
-#pigeon:nth-child(2) { /* Added this, but does it work? */
-  display: none;
-  overflow: hidden;
-}
-
 /* iPhone 4 and 4S Tidbits of Nonsensical Gibberish (Portrait)
    CHECK TO SEE HOW THIS LOOKS */
 @media only screen and
@@ -886,6 +881,10 @@ footer div {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+    }
+    
+    #pigeon p { /* Added this, but does it work? */
+      overflow: hidden;
     }
 }
 
