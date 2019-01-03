@@ -883,8 +883,12 @@ footer div {
       justify-content: flex-start;
     }
     
-    #pigeon { /* Added this, but does it work? */
-      overflow: hidden !important;
+    #pigeon div {
+      transition: box-shadow 0.95s;
+    }
+    
+    #pigeon div:hover {
+      box-shadow: 0px 30px 100px rgba(219,168,105,.4);
     }
 }
 
