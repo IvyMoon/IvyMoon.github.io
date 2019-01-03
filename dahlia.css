@@ -888,13 +888,11 @@ footer div {
     }
     
     #pigeon {
-      top: 50em;
+      bottom: 500px;
       z-index: 1;
     }
     
     #fakepigeon {
-      display: hidden;
-      position: static;
       z-index: 2;
     }
     
