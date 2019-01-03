@@ -882,6 +882,14 @@ footer div {
       flex-direction: column;
       justify-content: flex-start;
     }
+    
+    #pigeon {
+      z-index 2;
+    }
+    
+    #pigeon p {
+      z-index: 1;
+    }
 }
 
 /* ----------- Videos ------------ */
