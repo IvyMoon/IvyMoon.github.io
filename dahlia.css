@@ -887,10 +887,16 @@ footer div {
       justify-content: flex-start;
     }
     
+    #pigeon {
+      z-index: 1;
+    }
+    
     #fakepigeon {
       display: hidden;
       position: relative;
+      z-index: 2;
     }
+    
 }
 
 /* ----------- Videos ------------ */
