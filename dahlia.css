@@ -896,12 +896,13 @@ footer div {
     }
     
     #pigeon div:nth-child(1) {
-      z-index: 1;
+      position: absolute;
+      z-index: 2;
     }
     
     #pigeon div:nth-child(2) {
       display: hidden;
-      z-index: 2;
+      z-index: 1;
     }
 }
 
