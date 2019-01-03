@@ -884,6 +884,7 @@ footer div {
     }
     
     #pigeon {
+      overflow: none;
       z-index 2;
     }
     
