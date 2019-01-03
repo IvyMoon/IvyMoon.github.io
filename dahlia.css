@@ -813,10 +813,6 @@ footer div {
 
 /*-------Tidbits of Nonsensical Gibberish--------*/
 
-#fakepigeon {
-  background-color: white;
-}
-
 #pigeon {
   background-color: #3C3FA1;
 }
@@ -881,21 +877,11 @@ footer div {
   (max-device-width: 667px) and
   (-webkit-min-device-pixel-ratio: 2) and
   (orientation: portrait) {
-    #fakepigeon, #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen, #cow, #englightenment {
+    #pigeon, #pancake, #apple, #humphrey, #frog, #evergreen, #cow, #englightenment {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-    }
-    
-    #pigeon {
-    }
-    
-    #fakepigeon {
-      position: absolute;
-      top: 40%;
-      width: 53%;
-    }
-    
+    }  
 }
 
 /* ----------- Videos ------------ */
