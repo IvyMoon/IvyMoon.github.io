@@ -814,7 +814,7 @@ footer div {
 /*-------Tidbits of Nonsensical Gibberish--------*/
 
 #fakepigeon {
-  background-color: pink;
+  background-color: white;
 }
 
 #pigeon {
@@ -891,6 +891,7 @@ footer div {
     }
     
     #fakepigeon {
+      position: absolute;
       top: 50%;
       width: 53%;
     }
