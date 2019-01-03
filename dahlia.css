@@ -888,6 +888,7 @@ footer div {
     }
     
     #pigeon {
+      position: absolute;
       z-index: 1;
     }
     
