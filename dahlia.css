@@ -847,10 +847,6 @@ footer div {
   background-color: #071532;
 }
 
-#pigeon:hover { /* Added this to see if it works for touching the screen */
-  box-shadow: 0px 30px 100px rgba(219,168,105,.4);
-}
-
 /* iPhone 4 and 4S Tidbits of Nonsensical Gibberish (Portrait)
    CHECK TO SEE HOW THIS LOOKS */
 @media only screen and
