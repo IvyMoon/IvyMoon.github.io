@@ -882,16 +882,6 @@ footer div {
       flex-direction: column;
       justify-content: flex-start;
     }
-    
-    #pigeon {
-      overflow: none;
-      z-index 2;
-    }
-    
-    #pigeon p {
-      z-index: 1;
-      position: absolute;
-    }
 }
 
 /* ----------- Videos ------------ */
