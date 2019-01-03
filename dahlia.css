@@ -848,9 +848,8 @@ footer div {
 }
 
 #pigeon:nth-child(2) { /* Added this, but does it work? */
-  display: hidden;
+  display: none;
   overflow: scroll;
-  z-index: 2;
 }
 
 /* iPhone 4 and 4S Tidbits of Nonsensical Gibberish (Portrait)
