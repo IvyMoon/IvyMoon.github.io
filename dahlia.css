@@ -1200,6 +1200,8 @@ footer div {
   (orientation: portrait) {
     #mrcloud {
       transform: scale(2);
+      margin-top: -50px;
+      margin-bottom: 50px;
     }
 }
 
@@ -1211,6 +1213,8 @@ footer div {
   (orientation: portrait) {
     #mrcloud {
       transform: scale(2);
+      margin-top: -50px;
+      margin-bottom: 50px;
     }
 }
 
