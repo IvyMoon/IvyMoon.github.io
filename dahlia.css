@@ -287,9 +287,10 @@ a:hover {
     }
 
     .quote p {
-      font-size: 2rem;
+      /*font-size: 2rem;*/
       line-height: 2.5rem;
       margin-top: 1.5em;
+      font-size: 2.5rem;
     }
 
     #howdy {
@@ -361,9 +362,10 @@ a:hover {
     }
 
     .quote p {
-      font-size: 2rem;
+      /*font-size: 2rem;*/
       line-height: 2.5rem;
       margin-top: 1.5em;
+      font-size: 2.5rem;
     }
 
     #howdy {
@@ -1201,7 +1203,7 @@ footer div {
     #mrcloud {
       transform: scale(2);
       margin-top: 200px;
-      margin-bottom: 200px;
+      margin-bottom: 50px;
     }
 }
 
@@ -1214,7 +1216,7 @@ footer div {
     #mrcloud {
       transform: scale(2);
       margin-top: 200px;
-      margin-bottom: 200px;
+      margin-bottom: 50px;
     }
 }
 
