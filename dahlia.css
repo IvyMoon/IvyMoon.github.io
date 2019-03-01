@@ -303,6 +303,7 @@ a:hover {
       border: none;
       width: 95%;
       height: 95%;
+      margin-bottom: 1.5rem;  /*************/
     }
 
     #welcome img {
@@ -312,8 +313,12 @@ a:hover {
     }
 
     #gnome span p {
-      font-size: 2.5rem;
+      /*font-size: 2.5rem;*/
       line-height: 2.5rem;
+    }
+    
+    #gnome p {
+      font-size: 3.5rem; 
     }
 }
 
@@ -378,6 +383,7 @@ a:hover {
       border: none;
       width: 95%;
       height: 95%;
+      margin-bottom: 1.5rem;  /*************/
     }
 
     #welcome img {
@@ -389,6 +395,10 @@ a:hover {
     #gnome span p {
       font-size: 2.5rem;
       line-height: 2.5rem;
+    }
+    
+    #gnome p {
+      font-size: 3.5rem; 
     }
 }
 
@@ -1203,7 +1213,7 @@ footer div {
     #mrcloud {
       transform: scale(2);
       margin-top: 200px;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
     }
 }
 
@@ -1216,7 +1226,7 @@ footer div {
     #mrcloud {
       transform: scale(2);
       margin-top: 200px;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
     }
 }
 
