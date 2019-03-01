@@ -314,8 +314,9 @@ a:hover {
 
     #gnome span p {
       /*font-size: 2.5rem;*/
-      line-height: 2.5rem;
-      font-size: 3rem;
+      /*line-height: 2.5rem;*/
+      line-height: 3rem;
+      font-size: 3.5rem;
     }
     
     #gnome p {
@@ -395,8 +396,9 @@ a:hover {
 
     #gnome span p {
       /*font-size: 2.5rem;*/
-      line-height: 2.5rem;
-      font-size: 3rem;
+      /*line-height: 2.5rem;*/
+      line-height: 3rem;
+      font-size: 3.5rem;
     }
     
     #gnome p {
