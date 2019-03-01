@@ -1168,6 +1168,10 @@ footer div {
       font-style: 'Raleway';
       font-size: 3em;
     }
+    
+    #APD {
+      font-size: 2.8em;
+    }
 }
 
 /* iPhone 6, 6S, 7 and 8 Main Stories (Portrait) IS THIS THE SAME AS iPHONE X ? */
@@ -1185,6 +1189,10 @@ footer div {
       width: 100%;
       font-style: 'Raleway';
       font-size: 3em;
+    }
+    
+    #APD {
+      font-size: 2.8em;
     }
 }
 
